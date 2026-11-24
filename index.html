@@ -156,6 +156,33 @@ footer{background:var(--bosque2);color:#cfd9cf;padding:44px 20px 110px;font-size
 footer a{color:var(--maiz)}
 footer .vp{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);font-size:.84rem}
 
+
+/* Hoy en Filandia */
+.hoy{background:linear-gradient(160deg,#fff 0%,#eef3e6 100%)}
+.hoyTop{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.act{font-size:.82rem;color:var(--gris)}
+.vivo{display:inline-block;width:9px;height:9px;border-radius:50%;background:#2fb35a;margin-right:6px;animation:lat2 1.6s infinite}
+@keyframes lat2{0%,100%{opacity:1}50%{opacity:.25}}
+.climaG{display:grid;gap:12px;margin:22px 0}
+@media(min-width:760px){.climaG{grid-template-columns:1.3fr 2fr}}
+.ahora{position:relative;border-radius:var(--radio);overflow:hidden;color:#fff;padding:22px;min-height:170px;background:url(img/finca-akila.jpg) center 30%/cover}
+.ahora::before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(20,40,29,.92),rgba(20,40,29,.45))}
+.ahora>*{position:relative}
+.ahora .t{font:900 3.4rem Fraunces;line-height:1}
+.ahora small{opacity:.9}
+.dias{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.dia{background:#fff;border-radius:14px;padding:12px 8px;text-align:center;box-shadow:0 3px 12px rgba(31,58,43,.08);font-size:.82rem}
+.dia b{display:block;font:800 1.15rem Fraunces;color:var(--bosque)}
+.buscar{display:flex;gap:8px;margin-bottom:14px}
+.buscar input{flex:1;border:1.5px solid #cfd6c4}
+.notis{display:grid;gap:10px}
+.noti{display:block;background:#fff;border-radius:14px;padding:14px 16px;text-decoration:none;border-left:5px solid var(--pasto);box-shadow:0 3px 12px rgba(31,58,43,.07);transition:transform .2s}
+.noti:hover{transform:translateX(4px)}
+.noti b{display:block;font-weight:700;color:var(--tinta);margin-bottom:4px}
+.noti small{color:var(--gris)}
+.nueva{background:var(--teja);color:#fff;font:800 .66rem Inter;padding:2px 7px;border-radius:99px;margin-right:6px;letter-spacing:.05em}
+.vacio{color:var(--gris);padding:14px;background:#fff;border-radius:14px}
+
 /* Botón flotante */
 .flota{position:fixed;right:16px;bottom:16px;z-index:60}
 
@@ -220,6 +247,27 @@ footer .vp{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,25
     <div class="marco">
       <iframe src="https://www.youtube-nocookie.com/embed/A9shVxPmK6g?rel=0" title="Finca Akila The Cowboy Experience" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+  </div>
+</section>
+
+
+<!-- HOY EN FILANDIA (lo actualiza el robot cada 30 min) -->
+<section class="hoy" id="hoy">
+  <div class="ancho rev">
+    <div class="hoyTop">
+      <div>
+        <div class="kicker" data-es="Hoy en Filandia" data-en="Today in Filandia">Hoy en Filandia</div>
+        <h2 style="margin:0" data-es="Clima y noticias del Eje Cafetero" data-en="Weather and Coffee Region news">Clima y noticias del Eje Cafetero</h2>
+      </div>
+      <button class="btn osc" id="btnAct" data-es="Actualizar" data-en="Refresh">Actualizar</button>
+    </div>
+    <p class="act" id="actTxt"><span class="vivo"></span>…</p>
+    <div class="climaG">
+      <div class="ahora" id="ahora"><div class="t">--°</div><small>…</small></div>
+      <div class="dias" id="dias"></div>
+    </div>
+    <div class="buscar"><input id="q" type="search" placeholder="Buscar: Filandia, Salento, Cocora…" aria-label="Buscar noticias"></div>
+    <div class="notis" id="notis"><div class="vacio">…</div></div>
   </div>
 </section>
 
@@ -426,6 +474,7 @@ function idioma(l){
   document.querySelectorAll("[data-es]").forEach(el => el.innerHTML = el.dataset[l]);
   document.querySelectorAll(".lang button").forEach(b => b.classList.toggle("on", b.dataset.l===l));
   pintarTours();
+  if(typeof pintarHoy==="function") pintarHoy();
 }
 document.querySelectorAll(".lang button").forEach(b => b.onclick = () => idioma(b.dataset.l));
 
@@ -463,6 +512,48 @@ const io = new IntersectionObserver(es => es.forEach(en => {
   io.unobserve(en.target);
 }), {threshold:.18});
 document.querySelectorAll(".rev").forEach(el => io.observe(el));
+
+
+// ===== Hoy en Filandia: datos del robot =====
+const CLIMA = {0:["Despejado","Clear"],1:["Mayormente despejado","Mostly clear"],2:["Parcialmente nublado","Partly cloudy"],3:["Nublado","Overcast"],45:["Neblina","Fog"],48:["Neblina","Fog"],51:["Llovizna","Drizzle"],53:["Llovizna","Drizzle"],55:["Llovizna fuerte","Heavy drizzle"],61:["Lluvia débil","Light rain"],63:["Lluvia","Rain"],65:["Lluvia fuerte","Heavy rain"],80:["Chubascos","Showers"],81:["Chubascos","Showers"],82:["Aguaceros","Heavy showers"],95:["Tormenta","Thunderstorm"],96:["Tormenta","Thunderstorm"],99:["Tormenta","Thunderstorm"]};
+const cTxt = c => (CLIMA[c]||["Variable","Variable"])[L==="es"?0:1];
+let HOY = null;
+const fmt = (iso,op) => new Date(iso).toLocaleString(L==="es"?"es-CO":"en-US",Object.assign({timeZone:"America/Bogota"},op));
+async function cargarHoy(){
+  const t = document.getElementById("actTxt");
+  t.innerHTML = '<span class="vivo"></span>' + (L==="es"?"Buscando lo más reciente…":"Fetching the latest…");
+  try{
+    const r = await fetch("data/hoy.json?ts="+Date.now(),{cache:"no-store"});
+    HOY = await r.json();
+  }catch(e){ HOY = HOY || {noticias:[]}; }
+  pintarHoy();
+}
+function pintarHoy(){
+  if(!HOY) return;
+  const t = document.getElementById("actTxt");
+  t.innerHTML = '<span class="vivo"></span>' + (HOY.actualizado
+    ? (L==="es"?"Actualizado por el robot: ":"Updated by the robot: ") + fmt(HOY.actualizado,{dateStyle:"medium",timeStyle:"short"}) + (L==="es"?" (hora Colombia)":" (Colombia time)")
+    : (L==="es"?"El robot hace su primera búsqueda en minutos.":"The robot runs its first search in a few minutes."));
+  const c = HOY.clima;
+  if(c){
+    document.getElementById("ahora").innerHTML = `<div class="t">${Math.round(c.ahora.temp)}°C</div>
+      <div style="font:700 1.1rem Fraunces;margin:6px 0">${cTxt(c.ahora.codigo)}</div>
+      <small>${L==="es"?"Humedad":"Humidity"} ${c.ahora.humedad}% · ${L==="es"?"Viento":"Wind"} ${Math.round(c.ahora.viento)} km/h · Filandia</small>`;
+    document.getElementById("dias").innerHTML = c.dias.map(d=>`<div class="dia">${new Date(d.fecha+"T12:00:00-05:00").toLocaleDateString(L==="es"?"es-CO":"en-US",{weekday:"short",day:"numeric"})}
+      <b>${Math.round(d.max)}° / ${Math.round(d.min)}°</b>${cTxt(d.codigo)}<br><span style="color:var(--teja);font-weight:700">${d.lluvia ?? 0}% ${L==="es"?"lluvia":"rain"}</span></div>`).join("");
+  }
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const lista = (HOY.noticias||[]).filter(n => !q || (n.titulo+" "+n.fuente+" "+n.tema).toLowerCase().includes(q));
+  const ahora = Date.now();
+  document.getElementById("notis").innerHTML = lista.length ? lista.map(n=>`<a class="noti" href="${n.enlace}" target="_blank" rel="noopener">
+      <b>${ahora-new Date(n.fecha) < 864e5 ? '<span class="nueva">'+(L==="es"?"HOY":"TODAY")+'</span>':''}${n.titulo}</b>
+      <small>${n.fuente||""} · ${fmt(n.fecha,{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}</small></a>`).join("")
+    : `<div class="vacio">${q ? (L==="es"?"No hay noticias con esa palabra.":"No news match that word.") : (L==="es"?"El robot está trayendo las noticias.":"The robot is fetching the news.")}</div>`;
+}
+document.getElementById("btnAct").onclick = cargarHoy;
+document.getElementById("q").addEventListener("input", pintarHoy);
+document.addEventListener("visibilitychange", () => { if(!document.hidden) cargarHoy(); });
+cargarHoy();
 
 idioma(L);
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");

@@ -1,4 +1,4 @@
-const CACHE = "finca-akila-v1";
+const CACHE = "finca-akila-v2";
 const BASE = ["./", "index.html", "manifest.webmanifest", "img/finca-akila.jpg", "img/icon-192.png", "img/icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(BASE))); self.skipWaiting(); });
 self.addEventListener("activate", e => {
