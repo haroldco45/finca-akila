@@ -1,5 +1,236 @@
 {
-  "actualizado": "2026-11-23T20:21:04-05:00",
-  "clima": null,
-  "noticias": []
+  "actualizado": "2026-11-23T20:25:10-05:00",
+  "clima": {
+    "ahora": {
+      "temp": 20.4,
+      "humedad": 78,
+      "lluvia": 0,
+      "codigo": 0,
+      "viento": 2
+    },
+    "dias": [
+      {
+        "fecha": "2026-11-23",
+        "max": 26.4,
+        "min": 17.1,
+        "lluvia": 47,
+        "codigo": 51
+      },
+      {
+        "fecha": "2026-11-24",
+        "max": 26.8,
+        "min": 15.3,
+        "lluvia": 84,
+        "codigo": 80
+      },
+      {
+        "fecha": "2026-11-25",
+        "max": 25.5,
+        "min": 17,
+        "lluvia": 89,
+        "codigo": 80
+      },
+      {
+        "fecha": "2026-11-26",
+        "max": 26.2,
+        "min": 17.2,
+        "lluvia": 98,
+        "codigo": 55
+      }
+    ]
+  },
+  "noticias": [
+    {
+      "titulo": "Así se prepara el turismo en el Eje Cafetero para la temporada de fin deaño tras terremoto",
+      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWjJvN3BHMnV6R3c3RjhvZzJ3VUJJWlBEV3lEb2wwQnYza2JpaUhad2pqWDhZaWVvZ3E5cXFZTzNDX2VzTUZLMVNDeGV4UTVwRkJPY3EyeTdDVW1DWHc2VS1GZ2ZMZzVFQzM0bmp0eXFUdnBNY01faWhZOXVlQi1vbGJrUk9SeDB5S0NjY2pKVk40eDBXNmI5eG41eFBaa2lHd1E2bExwcGstYkpCV0FHcHRRbzRJWGVtY2hWdFE1RGZveWxhejB5Tw?oc=5",
+      "fuente": "Diario del Cauca",
+      "fecha": "2026-11-23T21:24:16.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Así se prepara el turismo en el Eje Cafetero para la temporada de fin de año tras terremoto",
+      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT2c0cEJjU0t5c21UQXdTZWJ5cWljRUE0UGRwbm0tdjVFb3NpbEhHS0JmZDhlUzJXdHpCTFFvRjJhTlRLTTJBd2U0SzNuRC11b0Vrcmx3VzZTM1B4bjFZUXpMcTRRYXBXcURRQjdZZjIzTWk1eGtnbC1KTTFuWDYxUmxIYU1hUGFranB4R3FvUloyRTFTZi1TWFJvR2daMXROV2xGMzR3QURfOU9YZkM5NWFRTWszdkNxYWltNlpZVzFvVzg50gHYAUFVX3lxTE1oMk8wc253TEp0NlFoX2NXbnhVTGlHd3dyamhnVy1iM09DSmpLWk9NdnU4aWRNdTg1Y05HSkMzMjdER04xWnZsbjNaM0JHdVAyczJNbHpBd0NEVU9lSTVZekdzM01xNkJzV241UmQtaUV5azJqS2k0dFRjODE4RFBMY210a3NfUnQ4X1lCZHFLRC0zcFIzYlo1d0VjRXhDcW93SHZ6cFNjUURKMW4zUWJzQURTS2J3blpnb2FhQnYyUFNoZWFUYXZuT0lqNXpHTDRmUW1FeWN2WQ?oc=5",
+      "fuente": "Caracol Radio",
+      "fecha": "2026-11-23T16:06:26.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "El agua que baja de los nevados",
+      "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUERSZGV3YTRkdDJtbE1CM0NYUS1Vc0lrdkRoOV9mdlg4Vk0yNDAxZW1jd1hfVkh2T2NDMUkySkZ4ZzRUaTRHdzFLdjBaSl9NSHRiNnRJa2Z5LTdDdDcxLUd5LXRnLTBuc0hWbVJ4Q2VMRlpTV0JXVGdaN3ZKV2R5NlRMQU9UZHRRZmhQZ0V1d3pNLU5X?oc=5",
+      "fuente": "El Colombiano",
+      "fecha": "2026-11-21T14:40:28.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
+      "titulo": "10 destinos para disfrutar del Día de las Velitas en Colombia y encender la esperanza",
+      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN2NIZ2FlVHhWaDJ5UDBZZkhOTWVXdUozSHRnSEZGZUJ1T2lqM09jaEIydWEzYjczeEhxTWtrYTF3SUdEZS1icFYyRFV2SG5IN1hYWDdFVnY3b292ODJyeWtsZE1hTk80eUFpT3VOellBMlR1ZHlKZ3RkenVSRTRZb3k4ZG1QVUN3eVdlQzY2TnVfVEhtVjI2OEsyU0w3a0VvSVNIR1EtNnRkQkdOMjk2Q0Y5U3RNRmJEb0h0UkRTLWVTX00tSXBSNThBZkV5WXYyMTJj?oc=5",
+      "fuente": "Viaja por Colombia",
+      "fecha": "2026-11-20T20:49:29.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "En el Quindío evidencian la falta de especialistas en psiquiatría y la alta demanda en salud mental",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdjViWjg0VzVJMU5TQTR1NzFScnByRmJvZGFtcU8wSERRWnIwN2ZsS0NpYjJUaWJKdmJvYktaVERfNkJnQ01sX01veWVJTzVjQ1Y5Uk9JZVhDbnkxdWFmZE5NaXREc0gtZThPblVyamQzNkFxQnJibzNrTWNVX2RSWFhKRUVOTFM2SWQxQ0NLeDdvblN3dnVaMER4bzVzSGVZdlhWNHk0aHFka0ptMHB6bTF3THU5ZW1xVTBOcUNrMmtpZE1BMW1jLXRWZFF4bzDSAeMBQVVfeXFMTk5WOXh2aGZibVRUOVN0WU0tbW1ucHJWaVQ5MF9GMEpxSFhQaHlJcVF3SmhoZlJkRlYzMVNfSURkWVAtcnZHV0V2MVJzcE5aVDAtNnRMQXZ0NTB0NkY4RlZieFNHU0ZzUFNKSHJKZjlXczNjTmMzYm1YV0h3MDBxYnJubm9JM0tFQlZzN0daTFNTN05KU0w3d3NhdmljRUFxQXRQQzhwTWk1VUptMXBvWFFIbGRmUXVwdVF1alNrT0d1ZkR3SnZGNTdWR0pUQl9TQktsd1NNQW4yWXZOT3BrRGxKa00?oc=5",
+      "fuente": "Caracol Radio",
+      "fecha": "2026-11-17T22:25:53.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Instalan sensores inteligentes en fincas de Filandia para mejorar productividad",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ3Qzc251SkNYRC1UcGV6bUgwbjFPbEktaXBleFVQa0dkejc1Sm9qbmYzeEhPWnZNcmM2RUxNcktBTTltbHB6bTF3cHZQM0o4VGlUVzB6U3E0R1JQU2pCSkotV0xBdkdYSnFGZDJZSTcyT0lzWm1uc1pTVEFCZnotQUxjaVBBdDY2cDZfMjNiRm0yQVpZcE9xUG9qVVc5VlpwZXY0Z2NmbDU5Y0NQYTgyUXpvSkc0U3dmN2c?oc=5",
+      "fuente": "Crónica del Quindio",
+      "fecha": "2026-11-17T16:59:25.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Destinations You Should Visit in Colombia Between November and December",
+      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRzBNdEJtMEZzMGlCTTdhZ3kxRXJ0MFhUOVBiX0IwOV8yRVBPMFR4V0l5OUZBSGEteG81QXo1b2t6ZXRUZWNfRXJfN0RxQ3VyazBZMW5YQ2Y4RXlETDlwRXhCcFBZS2laQ05Qd2Yzb3g3MEwwUmd5SHVHMkpSeXNZQ2ZQMFIteXhR?oc=5",
+      "fuente": "ColombiaOne.com",
+      "fecha": "2026-11-16T19:00:00.000Z",
+      "tema": "Filandia Colombia travel",
+      "idioma": "en"
+    },
+    {
+      "titulo": "La Gobernación del Tolima y la Gobernación de Caldas restablecieron el pico y placa ambiental en la vía Murillo-Manizales para proteger el Parque Nacional Natural Los Nevados. Conozca los horarios, placas autorizadas y restricciones. 🔗 Encuentre el link",
+      "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYU5PMXAycUhOTUFvSDc1QklnR0hqX25SRUJ5UnZKc2ZFd0pmNXlqZUpKcUJWa2hyN05HQUhwVGJUYW51dlFRdFpWRnNRb0dNTGFXWENLV2FoLWJ0dzJ3d09IdG40SjNxX2x4ZE9WZF94MHVSNzNZTDQzVkJhQUxxQ0pqQm5Wb1Z2R1hQcEEzMGtoaUV4UUVpYWgwV3V6aWlOX2FEMDdVb0JkaExGby1aOWFBSWxUbTYtaVZOc1NvNEVwRlU3N2lTbl9aaHBMX3pPbG1SaVpTVlRvT1RPYWlUWUt6eXRuTTlkeERaazQ0SQ?oc=5",
+      "fuente": "Facebook",
+      "fecha": "2026-11-14T11:01:41.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Alquímico: bar cartagenero entre los mejores del mundo por su hospitalidad",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGRjaDVvUzhUVndWUFZ5NnpseUhwQWFDNmtreHprTnBHalNlZ3hNdjNoc3Q3OWxraE9oZUFQQ1pUY0E1SE1zLVY2ekdYQjlCSWVXQi1abUR1eUtXNW9aSnBlXzkxX0xiRGFfNEYzdzFxcERST1duQ2N5Sm9sTE9ZU3JQUkY2a3VTQmY0UkQ2WFUyenpDWlc5dm5RaTVsZlJDejl4ZEpid3E?oc=5",
+      "fuente": "Zona Cero",
+      "fecha": "2026-11-14T01:27:17.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Habitantes de municipios del Eje Cafetero comienzan a recibir aprobación para pagar $700 en el peaje Circasia",
+      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYS1XU3RISmdpa05Ibzh2WDJUM3lVd3FFbV83bTdBUDdHeThHbXJfUkJZaFhkSWlnV0xPN29wb0hBRG05MDJqZmQ2bnBBcUFhNkotX3IyMV8yRWkwd1RCQlFHSjBNLW1NcDdoeGZ4TTZoNHA0SFVYNDR0REpBWDhQX0hKd0V3RTJDN2VGYUNXaWNNVjBzdGRPQjNuaEtMU3BZUFBwS1N6Y2hBQVhHZ1RHald5RzdVcXVFXzRLdmpTWlk?oc=5",
+      "fuente": "La Patria",
+      "fecha": "2026-11-11T08:00:00.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Bomberos de Manizales fortalecen sus capacidades de rescate en alta montaña con entrenamiento en Los Nevados",
+      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzBfSzZkX19Tb3dmSDFfak1qVlVQaU12UGlwV1Z2YTFmb1BNcFBhMnBRbFNfZl9zN0c0TVNUNUp3cW50cnNGa3BuMzJ6NFdMZ2lwMTY0eERYVkx5b1kzRXhGRXFHZF9rMGNfVVFIazJZbVZkNzdwVzI1WG10N214U1haMXgzZVdKTFRkek9hdVhFZU1DcXd3Q1lXVy1sX0RDNEhpVFJYMVhrU2JIaWFJRXI0WXZjaWFjS25vcEFEbTlId3Bqb1BYS2R3QW5ieGppZl93ejBaS0hQS0xPZnAzMlNYZm03SUZFM3c?oc=5",
+      "fuente": "Centro de Información – Alcaldía de Manizales",
+      "fecha": "2026-11-09T08:00:00.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Por fin, están notificando a beneficiaros de tarifa diferencial de $700 pesos en peajes en Quindío",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUVI1MThiWmswSXlwaURYOTVuU2NUSUVMbXRtN2hIcEVTOXFwSGdkNHU4RW1ucnZSdk51SXlZOUJ2eGNCMWs4ZC1nUk5meVBfazhXTndQMHBVSU9lYW9IUEZIbHJGSUxSdlNnZ3RlbUJURGkwZklLckxxdG5FTmZUNk5ra1lDSVNCbXBXdjlEazRoWDlSUE9hNERaMXZKUm9fSVo3ZXVJX003SWJvWGh1YjE1NmdjcTdmbFJiWUQxcHdHc2VlVFM3VVI2SdIB3wFBVV95cUxNZzlfNk9IenFXOXBpa2dmd2VIa3BuVlBNSU1YSlZqR1NDUFFybUZ5ODFwREx5cnEyWkJmOHJUd2dEeS0zNVZMajJDWW96WTRjYXo0QmkwMDllUXpubG1sUEhUM3VnZUdGTUVlQm9za0VHaWZreGhlTnJyTVhMUXo4M1NjMlNuRGdNS0g0OF9Kd2wta1NqNW1SSzFBWVd3cHlVMnE3bFJWWm9XZV9KY2xQZktCclE5dDh2aDB5cG9nN3BRampjc2kxWEVzUGtLNUp6dzVRZ3VvYUJ0dWREWElV?oc=5",
+      "fuente": "Caracol Radio",
+      "fecha": "2026-11-08T16:59:33.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Parques Nacionales Naturales llevará la biodiversidad de Colombia a Bogotá: estas serán las actividades por sus 66 años",
+      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXllY1YxM2laNldLdkFlYzdCY1dvSVFSeWJDbjVkbGU4MWVSVWV4SkR0RkIxT2R0SXMxdHdXX2w1bU16VmI0UmdJb202Skk0S2U2bDB3SVhPVG5KX2dsQ3M3VG9ma1BVTXZ2alVHeFlFMkhZQ08xZXNaUGdjc2ZUOWNkanBiM0ZTNWJIUEJhYTRoMUQzMnRXVnlHUUNDeUhpUEtBY2EwWXI3ZVRRZFBFY2JZMWxoaFVndEcxcVBzcTNBWFN30gHEAUFVX3lxTFBYVEk5amFmcXpaU2dIMkZrMjVvTktKRmIwZmJ1X2lKTGlkeFBFdGZ1YlBiRnNzNzYzeGxXZUVSc2Zudld3ajNUSlMtXzdMX3hZRUVSVGJMZU45TmJKRGdxcGsyWjZIdlh5QWkweXJJWHpOZHNjRDA4NVVPNW1HQXhtdnRKelZhbk85ancyaGFHZVJaNk1KbkNTRHI5Mlk3NkNmN1c1SjNCM0Z5Ny1wVmE1cnRvQ1haSGZ5VzRKRTh4eEZGdnk?oc=5",
+      "fuente": "La FM",
+      "fecha": "2026-11-08T08:00:00.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
+      "titulo": "MinComercio e iNNpulsa articulan acciones para acelerar la reactivación económica del Eje Cafetero y Antioquia",
+      "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTENURE1qRUszY1NPcHN2TEhQREJhVDFDT2Y1Q2xORlV3MjJaS3NSYWRDdENZcHJDTWU1NUFTOERibTBvcl9qRGlpcVN6SDlwb0VEdmFNTHFqRU9HVzJ4YkxDcUxtRU1xN0dJRFBxUjI0b1pTMVlqZTZvdU5nM1BwY0wxWm15UGQtTXlfZjI0VzZwU2N1am5UTldIaXUtQkFzODZsU1BXSXNHWG9hNkVUTThSVFVoUkVSUWJBV1ZaNlNMX1I0RGJFM1RWdEZXQURtSjhreXpLYlhUNjlucmllcEdFUko4SGta?oc=5",
+      "fuente": "Innpulsa",
+      "fecha": "2026-11-06T22:44:49.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Uno de los diez pueblos milagro de Colombia está en el Eje Cafetero. Santa Rosa de Cabal está entre los elegidos que recibirán $60 mil millones.🔗 Encuentre el link de la noticia en el primer comentario 🗞️",
+      "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU2hqNGtDdGVwQWJqSllVckNUdkhicHlzdWw2LUozcW5pRm8yUURYb0FPNHNpUElUNURpUVRDcjMtVGY2ampESmJiLThWMk5ycjdCTUtNVFlEZk9rQmhrSEhLSllnOVZ4ZGxVOXZKOVRYdUs4TU1YN2RHUkR2WmpsNkRsUGpVR0g2WmtVOVhLLXF6aV9LUXpjaWxXSlBwQUFIMDJWMm9mOTBBLWplQy1OeHlXNjV0X1hhSm5aTXdrczZCdE9tZzVMOTZqVkZwTDVmZXNHNUpLY2FESzMwMmoybGg0cDZrX0hz?oc=5",
+      "fuente": "Facebook",
+      "fecha": "2026-11-06T08:00:00.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "una semana para celebrar 66 años de protección de la biodiversidad",
+      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2NROVRQMkhwdGNYWFpZelk1YjNDVEJSUEt4c2JROGs4d0ZUMXJUc19lZTdybHJYVkxTTjZCdHFiZnp0WEN0OEl0alFTZHFIUG9JMlotMnl6OUpxZnROaXZPa0lNTWM1eU9UaXFhNXd5bDQ2WVRkbjFpRzlia1Bzd21MY3ZBNzdTb2hWdXJKV0cwT1FUYmxWWmpmZ3MxU0FvWXhoQzl2QVk5Yy1lWGxKczRZYzc2MmNVMjFJZA?oc=5",
+      "fuente": "Parques Nacionales Naturales de Colombia",
+      "fecha": "2026-11-06T08:00:00.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Colombia más allá del Caribe: un viaje por el Eje Cafetero",
+      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1RkUXA5SlktYjdGSkdDZG91czFsamJoR0o2RUd5Tkg4WnBKVUstVTdJRXpsN1R5UmszaF91UFhWRWNaWHBLQUFiQWI4eklmajNKdmE5V21vZ0lnWlVhejVjZGVJVFpqb0NoWkhHemtwVEtHcjd6MVhYbldiVjBvckwwaC1Db2xqdm1DaEg5VWYySExYN0tCU3FMUkdnVGluc2hrTXlaZDBSSE1O0gGsAUFVX3lxTE1PVGRRcDlKWS1iN0ZKR0Nkb3VzMWxqYmhHSjZFR3lOSDhacEpVSy1VN0lFemw3VHlSazNoX3VQWFZFY1pYcEtBQWJBYjh6SWZqM0p2YTlXbW9nSWdaVWF6NWNkZUlUWmpvQ2haSEd6a3BUS0dyN3oxWFhuV2JWMG9yTDBoLUNvbGp2bUNoSDlVZjJITFg3S0JTcUxSR2dUaW5zaGtNeVpkMFJITU4?oc=5",
+      "fuente": "Viajando.Travel",
+      "fecha": "2026-11-05T08:00:00.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Parece sacado de Disney: así es el mirador colombiano inspirado en Encanto",
+      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPelkxcXZNNFF6NlhBS2llVGhCOF92ZGpSTTNwdV9lYzFad0E4ZHlCeG1qVE90emY5NFYwWXJIaVpsTmZQZld4aFhyeE1BWHBNZUVvYmIzN2t5azVJS2VacW5zbzlPaUpZcHJKYVdUdW85SU1lMlJWaVRVTW5LZGdnalE1UVFmS3NaZlE5NzhZeHR5b0NPeHlxZGo1emZ2WWJ5aXhuMDh3aW9GS3ZjSkhmdHNhME9HUXRYOWZ4RFNB?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-11-03T08:00:00.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Greek Island Karpathos Named Among World’s 41 Most Underrated Travel Destinations for 2027",
+      "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRmtsNHVBZXBtOUpOSkx5cGE3b1JwWGpIekYwaG9ZbTh4RXMwX3hNbEhlQUVKcGJBRERoVy1XeXN3YktoV0ViaFZRTW1ZSEU0MmpIME9oMGx4bGNiUGFvR1ZzMS1qaVNDb3J3UnhqS2d3cXFDZWNSUUtfcGxEVVdYWVVmRXVtLU80QThB?oc=5",
+      "fuente": "Greek City Times",
+      "fecha": "2026-11-03T08:00:00.000Z",
+      "tema": "Filandia Colombia travel",
+      "idioma": "en"
+    },
+    {
+      "titulo": "Dosquebradas recibió la Media Maratón del Café como protagonista del turismo deportivo",
+      "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPblJ5UUxjM1NRVnNkUTRMbnIySU80TzhSTk8wOHlsN3RBeXNWaS1uNVdjRW03NkhJNFFWOVIwd0FDSDBoRG1XZkZRNS1BU1ZoQ19LRlUwRkdHZ2RXbXEwN0lxRGtYZ2M2NmhLcVhmWk5MaDFqbGZVSVNKSE5iXzdKX2Jfc0VPZUFKTXp0cWRWeFdDN3gyWDEzWE1xY1ZMNXY4ZVdkZUYtTFp1bE8yVGNuNXplUGVRLVdEdUtib056ekxueWdDU1pDQjVpdHEzTDBWNGQwRGpfalFGTEtJWUxSSVBVbzFHQjRiR0J0WTZHY0RXcHRRVTdZaGRHZzR1WmxWOHQ1SFIyWUZLN0JwRF9OdVA2N0J2b3RsRHc?oc=5",
+      "fuente": "Dosquebradas",
+      "fecha": "2026-11-02T08:00:00.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "El corredor Murillo-Manizales tendrá pico y placa ambiental: así funcionará la medida",
+      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMXU0U3FWRmxURFhmQm5OV3NRelB4bWEwWkVVVzBUa1VwZ2pzMk5WLUVxaEo5Nk1aSE5YM0JicjhQLTFOckRRdlZEWG5CSTBua0U2V3EzdHk3Rkk4Y3BNTy1iUFhtQndUX0hzVFhKek5IdU5YLUM3V3gwblpzd0RhTjFMSkp0LW9ENllkVjUzZXlWcE1zQlNjZU5lZllqUHh3UVlXMTBuQUh1ODBtbTg2Y2d5NmJEeVRmc1F1ZjhkOUp4c0R6MGhPSNIB4wFBVV95cUxQMXRjY2NOUGtPMTJZc3FUdUd1T3M0UmpfSjRydUZOMHlIeWtCelJKY0JmNnlDc3lQaG5MdzFySkM5VXpzLUtVTFJwa2dqMzJmblZLYk1JUnN6d0pIYndRU19nMVl1THktVVJTemMwcDkwTEpQSFItcEx1SzJjN1BUOTJkV2FXdnl4dmJfX0tsQU5PVGJOWUluYW92MWpnVkNZMUZnZ1dqeGdubU16SEdyMUNqUnV1dzQxY0ZIX3U4NVBucGZkNk1qekF5ZEptbzdMd3hGSVZ6MU1nSHJYWmpGNmdzOA?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-30T07:00:00.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Pico y placa ambiental regirá en el corredor Murillo-Manizales durante Navidad y Año Nuevo",
+      "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWDVJMEdZQ1BjZjdYQkdWTV9ELVp3UmQyNUZuVXo2VlMzYllYVUh2TFBDYWYwOFBXdVViaUVtU2NKcFh1SnJmQVVBZlJ2bnptbzZtUUZ4ZDdzSVV0eEtjYWZMbzBaa1pQYnJZbTlSTl9zQWRvY0tqMVEwYmVUb3ZnbEQzRF80UjdkUTROM2tneWdFQXJpdkRDNjZUbWw1dVpuY1dmX1lSazdoUVFIMWtxSFRUaHo4b1EyX09zczk3VQ?oc=5",
+      "fuente": "La Patria",
+      "fecha": "2026-10-30T07:00:00.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Municipio del Eje Cafetero registra la presencia de un puma y refuerza la importancia de proteger sus bosques",
+      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGJBckd2Q2xZWGRVYVdLRk9OSm5rRVBVT1hvUXRKWnBBaVkzaWtHQWxaTklHdm1mTDkxRThLbE1jZm5TeVpPMjJMU09jSTRBbnFkYlc5Q2c1aDdTNkpZMXo2SXZmaERTTnFNM1hWSkh1bkozcHV4TkNfamdwTzF1U1FHSVNYSjZybmduMHZKRXNkLUZRUnBURGZhb3ptZzdzQU1DZ1hpV1BWT0FoaG96dl92aHh5dHM5REUycjJkTGI?oc=5",
+      "fuente": "La Patria",
+      "fecha": "2026-10-29T07:00:00.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "El municipio del Eje Cafetero que es considerado un ‘mirador estrella’, un destino ideal para el descanso",
+      "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTElQUGxiRTU5blFuajd3bF92anBYZ2tNU2pvdk9JU1ZXVEU1RWJaZk9jZlprZ2JxUDlBanpiUmdpaUZJVlFXRVNWaENwNHhsQ1duYy1FNTh1aF9qQTg5Rm1odEV1R05hQ2dfYXBIQS1oVkcxY2M4VmRncDFoeURaOWZGVUtxa1JhYTVuZXBuREV5WVlXZTBnaG9kWVdpSzROaXlwSURSV01yNFdiR01SeHhjNE1pdlZHb29zUDUtN0hRSlZKanZtUUdNcjFGY21fNDQ0RU9CNkFmV2VfRThUZEExQTY?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-29T07:00:00.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    }
+  ]
 }
