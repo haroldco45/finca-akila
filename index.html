@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Finca Akila · Cabalgatas en Filandia, Quindío</title>
+<meta name="description" content="Cabalgatas de un día y expediciones de varios días por el Eje Cafetero y Los Nevados desde Finca Akila, La India, Filandia (Quindío). Horseback adventures in Colombia's Coffee Region.">
+<meta name="theme-color" content="#1f3a2b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/icon-192.png">
+
+<!-- Vista previa al compartir el enlace (foto real) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Finca Akila">
+<meta property="og:title" content="Finca Akila · La Colombia que no sale en las guías">
+<meta property="og:description" content="Cabalgatas por cafetales, ríos y montañas en Filandia, Quindío. Un día, varios días o hasta Los Nevados. Reserva por WhatsApp.">
+<meta property="og:image" content="https://finca-akila.netlify.app/img/og-finca-akila.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://finca-akila.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://finca-akila.netlify.app/img/og-finca-akila.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bosque:#1f3a2b; --bosque2:#14281d; --pasto:#6f9a3c; --teja:#b8442f;
+  --maiz:#e9b949; --crema:#f6f0e4; --tinta:#1b1b17; --gris:#5d6157;
+  --radio:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--crema);color:var(--tinta);line-height:1.55;overflow-x:hidden}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.08;letter-spacing:-.01em}
+a{color:inherit}
+img{display:block;max-width:100%}
+
+/* Barra superior */
+.top{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:12px 18px;transition:background .3s,box-shadow .3s}
+.top.solid{background:rgba(20,40,29,.92);backdrop-filter:blur(10px);box-shadow:0 6px 20px rgba(0,0,0,.2)}
+.marca{font-family:Fraunces,serif;font-weight:900;color:#fff;font-size:1.25rem;text-decoration:none;letter-spacing:.02em}
+.marca span{color:var(--maiz)}
+.lang{display:flex;background:rgba(255,255,255,.15);border-radius:99px;padding:3px}
+.lang button{border:0;background:none;color:#fff;font:600 .8rem Inter;padding:6px 12px;border-radius:99px;cursor:pointer}
+.lang button.on{background:var(--maiz);color:var(--bosque2)}
+
+/* Hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.hero .bg{position:absolute;inset:0;background:url(img/finca-akila.jpg) center 40%/cover;animation:ken 22s ease-in-out infinite alternate}
+@keyframes ken{from{transform:scale(1.05) translate(0,0)}to{transform:scale(1.18) translate(-3%,-2%)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 35%,rgba(20,40,29,.95) 100%)}
+.hero .in{position:relative;z-index:2;padding:0 22px 70px;max-width:760px}
+.chip{display:inline-block;background:var(--teja);font:700 .72rem Inter;letter-spacing:.14em;text-transform:uppercase;padding:7px 12px;border-radius:99px;margin-bottom:16px}
+.hero h1{font-size:clamp(2.4rem,9vw,4.6rem);font-weight:900}
+.hero h1 em{font-style:normal;color:var(--maiz)}
+.hero p{font-size:1.08rem;opacity:.92;margin:16px 0 26px;max-width:560px}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-block;border:0;cursor:pointer;text-decoration:none;font:700 1rem Inter;padding:15px 22px;border-radius:99px;transition:transform .2s,box-shadow .2s}
+.btn:active{transform:scale(.97)}
+.btn.wa{background:#25d366;color:#08301a;box-shadow:0 10px 30px rgba(37,211,102,.35)}
+.btn.claro{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+.btn.osc{background:var(--bosque);color:#fff}
+.latido{animation:lat 2.4s ease-in-out infinite}
+@keyframes lat{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}50%{box-shadow:0 0 0 14px rgba(37,211,102,0)}}
+
+/* Cinta */
+.cinta{background:var(--maiz);color:var(--bosque2);overflow:hidden;white-space:nowrap;font:800 .95rem Inter;letter-spacing:.06em;text-transform:uppercase;padding:12px 0}
+.cinta div{display:inline-block;animation:corre 30s linear infinite}
+.cinta span{margin:0 22px}
+@keyframes corre{to{transform:translateX(-50%)}}
+
+section{padding:72px 20px}
+.ancho{max-width:1080px;margin:0 auto}
+.kicker{color:var(--teja);font:800 .76rem Inter;letter-spacing:.16em;text-transform:uppercase;margin-bottom:10px}
+h2{font-size:clamp(1.9rem,6vw,3rem);margin-bottom:18px}
+.lead{color:var(--gris);font-size:1.05rem;max-width:640px}
+
+/* Cifras */
+.cifras{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:30px}
+@media(min-width:760px){.cifras{grid-template-columns:repeat(4,1fr)}}
+.cifra{background:#fff;border-radius:var(--radio);padding:20px;box-shadow:0 4px 18px rgba(31,58,43,.08)}
+.cifra b{display:block;font:900 2.2rem Fraunces;color:var(--bosque)}
+.cifra small{color:var(--gris);font-size:.86rem}
+
+/* Video */
+.video{background:var(--bosque2);color:#fff}
+.video .lead{color:#cfd9cf}
+.marco{position:relative;margin-top:26px;border-radius:var(--radio);overflow:hidden;aspect-ratio:16/9;background:#000;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.marco iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* Tours */
+.filtros{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 26px}
+.filtros button{border:1.5px solid var(--bosque);background:transparent;color:var(--bosque);font:600 .88rem Inter;padding:9px 15px;border-radius:99px;cursor:pointer;transition:.2s}
+.filtros button.on{background:var(--bosque);color:#fff}
+.tours{display:grid;gap:18px}
+@media(min-width:760px){.tours{grid-template-columns:repeat(2,1fr)}}
+.tour{background:#fff;border-radius:var(--radio);overflow:hidden;box-shadow:0 6px 24px rgba(31,58,43,.1);display:flex;flex-direction:column;transition:transform .3s}
+.tour:hover{transform:translateY(-4px)}
+.tour .foto{position:relative;aspect-ratio:16/10;overflow:hidden}
+.tour .foto img{width:100%;height:100%;object-fit:cover;transition:transform .8s}
+.tour:hover .foto img{transform:scale(1.07)}
+.tour .dur{position:absolute;left:12px;top:12px;background:var(--teja);color:#fff;font:800 .74rem Inter;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:99px}
+.tour .txt{padding:20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.tour h3{font-size:1.45rem}
+.tour p{color:var(--gris);font-size:.96rem}
+.tour ol{padding-left:18px;color:var(--gris);font-size:.92rem;display:none}
+.tour.abierto ol{display:block}
+.tour ol li{margin:4px 0}
+.tour .acc{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.tour .acc button{font:700 .9rem Inter;border-radius:99px;padding:11px 16px;cursor:pointer;border:0}
+.ver{background:var(--crema);color:var(--bosque)}
+.res{background:var(--bosque);color:#fff}
+.tag{font:700 .78rem Inter;color:var(--pasto);text-transform:uppercase;letter-spacing:.08em}
+
+/* Banda foto */
+.banda{position:relative;color:#fff;padding:120px 20px;overflow:hidden}
+.banda .bg{position:absolute;inset:-10% 0;background:url(img/finca-akila.jpg) center 20%/cover;will-change:transform}
+.banda::after{content:"";position:absolute;inset:0;background:rgba(20,40,29,.68)}
+.banda .ancho{position:relative;z-index:2}
+.banda blockquote{font:700 clamp(1.6rem,5.5vw,2.8rem) Fraunces;max-width:760px}
+.banda cite{display:block;margin-top:14px;font:600 .9rem Inter;font-style:normal;opacity:.85}
+
+/* Lista llevar / llegar */
+.dos{display:grid;gap:18px}
+@media(min-width:760px){.dos{grid-template-columns:1fr 1fr}}
+.caja{background:#fff;border-radius:var(--radio);padding:24px;box-shadow:0 4px 18px rgba(31,58,43,.08)}
+.caja h3{font-size:1.35rem;margin-bottom:12px}
+.caja ul{list-style:none}
+.caja li{padding:9px 0;border-bottom:1px dashed #ddd6c6;color:#3c4038}
+.caja li:last-child{border:0}
+.caja li b{color:var(--bosque)}
+.mapa{margin-top:18px;border-radius:var(--radio);overflow:hidden;aspect-ratio:4/3}
+.mapa iframe{width:100%;height:100%;border:0}
+
+/* Reserva */
+.reserva{background:var(--bosque);color:#fff}
+.reserva .lead{color:#cfd9cf}
+form{margin-top:24px;display:grid;gap:12px;background:rgba(255,255,255,.06);padding:20px;border-radius:var(--radio)}
+@media(min-width:760px){form{grid-template-columns:1fr 1fr}}
+label{font:600 .84rem Inter;color:#dfe8df;display:flex;flex-direction:column;gap:6px}
+input,select,textarea{font:500 1rem Inter;padding:13px 14px;border-radius:12px;border:0;background:#fff;color:var(--tinta);width:100%}
+.full{grid-column:1/-1}
+.nota{font-size:.82rem;color:#b8c6b8}
+
+/* Sismo */
+.sismo{background:#fff}
+.sismo .caja{background:var(--crema);border-left:6px solid var(--teja)}
+
+/* Pie */
+footer{background:var(--bosque2);color:#cfd9cf;padding:44px 20px 110px;font-size:.9rem}
+footer a{color:var(--maiz)}
+footer .vp{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);font-size:.84rem}
+
+/* Botón flotante */
+.flota{position:fixed;right:16px;bottom:16px;z-index:60}
+
+/* Aparición */
+.rev{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
+.rev.vis{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rev{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="top" id="top">
+  <a class="marca" href="#inicio">FINCA <span>AKILA</span></a>
+  <div class="lang" role="group" aria-label="Idioma / Language">
+    <button data-l="es" class="on">ES</button>
+    <button data-l="en">EN</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio" style="padding:0">
+  <div class="bg" role="img" aria-label="Cabalgata frente a una casa campesina con montañas al fondo"></div>
+  <div class="in">
+    <div class="chip" data-es="La India · Filandia · Quindío" data-en="La India · Filandia · Quindío">La India · Filandia · Quindío</div>
+    <h1 data-es="La Colombia que <em>no sale en las guías</em>" data-en="The Colombia they <em>don't show you</em> in guidebooks">La Colombia que <em>no sale en las guías</em></h1>
+    <p data-es="Senderos salvajes, montañas sin fin y cascadas escondidas. Solo usted, su caballo y la aventura que viene. Cabalgatas de un día y expediciones de varios días al pie de los Andes."
+       data-en="Wild trails, endless mountains and hidden waterfalls. Just you, your horse and the adventure ahead. Day rides and multi-day expeditions at the foot of the Andes.">Senderos salvajes, montañas sin fin y cascadas escondidas. Solo usted, su caballo y la aventura que viene. Cabalgatas de un día y expediciones de varios días al pie de los Andes.</p>
+    <div class="btns">
+      <a class="btn wa latido" href="#reservar" data-es="Reservar mi cabalgata" data-en="Book my ride">Reservar mi cabalgata</a>
+      <a class="btn claro" href="#tours" data-es="Ver los tours" data-en="See the tours">Ver los tours</a>
+    </div>
+  </div>
+</section>
+
+<div class="cinta" aria-hidden="true"><div>
+  <span>Eje Cafetero</span><span>Los Nevados</span><span>Ríos y cascadas</span><span>Cafetales</span><span>Inglés o Western</span><span>Todos los niveles</span>
+  <span>Eje Cafetero</span><span>Los Nevados</span><span>Ríos y cascadas</span><span>Cafetales</span><span>Inglés o Western</span><span>Todos los niveles</span>
+</div></div>
+
+<!-- QUIÉNES -->
+<section id="finca">
+  <div class="ancho rev">
+    <div class="kicker" data-es="La finca" data-en="The farm">La finca</div>
+    <h2 data-es="Al pie de los Andes, en el corazón del Eje Cafetero" data-en="At the foot of the Andes, in the heart of the Coffee Axis">Al pie de los Andes, en el corazón del Eje Cafetero</h2>
+    <p class="lead" data-es="Finca Akila es una escuela de cabalgata y finca cafetera en el corregimiento de La India, Filandia. Sus caballos, bien entrenados y cuidados, sirven para jinetes de todos los niveles, en monta inglesa o vaquera (Western). Atienden Dan y su familia, y además están abriendo Akila Rancho, un hostal con mirador y piscina muy cerca."
+       data-en="Finca Akila is a horse-riding school and coffee farm in La India, Filandia. Their well-trained, well-cared-for horses suit riders of every level, English or Western style. Dan and his family host you, and they are opening Akila Rancho, a hostel with a viewpoint and pool nearby.">Finca Akila es una escuela de cabalgata y finca cafetera en el corregimiento de La India, Filandia. Sus caballos, bien entrenados y cuidados, sirven para jinetes de todos los niveles, en monta inglesa o vaquera (Western). Atienden Dan y su familia, y además están abriendo Akila Rancho, un hostal con mirador y piscina muy cerca.</p>
+    <div class="cifras">
+      <div class="cifra"><b data-n="5">0</b><small data-es="tours distintos" data-en="different tours">tours distintos</small></div>
+      <div class="cifra"><b data-n="4000" data-suf=" m">0</b><small data-es="Laguna del Otún, en Los Nevados" data-en="Otún Lake, Los Nevados">Laguna del Otún, en Los Nevados</small></div>
+      <div class="cifra"><b data-n="15" data-suf=" min">0</b><small data-es="en bus desde el parque de Filandia" data-en="by bus from Filandia's square">en bus desde el parque de Filandia</small></div>
+      <div class="cifra"><b data-n="5" data-suf=".0">0</b><small data-es="en Tripadvisor (28 opiniones)" data-en="on Tripadvisor (28 reviews)">en Tripadvisor (28 opiniones)</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="video">
+  <div class="ancho rev">
+    <div class="kicker" style="color:var(--maiz)" data-es="Véalo en video" data-en="Watch it">Véalo en video</div>
+    <h2 data-es="The Cowboy Experience" data-en="The Cowboy Experience">The Cowboy Experience</h2>
+    <p class="lead" data-es="Video real de Finca Akila: ganado, ríos y montañas a caballo." data-en="Real footage from Finca Akila: cattle, rivers and mountains on horseback.">Video real de Finca Akila: ganado, ríos y montañas a caballo.</p>
+    <div class="marco">
+      <iframe src="https://www.youtube-nocookie.com/embed/A9shVxPmK6g?rel=0" title="Finca Akila The Cowboy Experience" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- TOURS -->
+<section id="tours">
+  <div class="ancho">
+    <div class="rev">
+      <div class="kicker" data-es="Tours" data-en="Tours">Tours</div>
+      <h2 data-es="Escoja su aventura" data-en="Pick your adventure">Escoja su aventura</h2>
+      <p class="lead" data-es="Precios a consultar por WhatsApp. También arman aventuras a la medida." data-en="Prices on request via WhatsApp. Custom adventures available too.">Precios a consultar por WhatsApp. También arman aventuras a la medida.</p>
+    </div>
+    <div class="filtros" id="filtros">
+      <button class="on" data-f="todos" data-es="Todos" data-en="All">Todos</button>
+      <button data-f="dia" data-es="Un día" data-en="Day ride">Un día</button>
+      <button data-f="varios" data-es="Varios días" data-en="Multi-day">Varios días</button>
+    </div>
+    <div class="tours" id="lista"></div>
+  </div>
+</section>
+
+<!-- BANDA -->
+<section class="banda">
+  <div class="bg" id="parallax"></div>
+  <div class="ancho rev">
+    <blockquote data-es="“La vida es muy corta para aventuras comunes.”" data-en="“Life's too short for ordinary adventures.”">“La vida es muy corta para aventuras comunes.”</blockquote>
+    <cite>@fincaakila</cite>
+  </div>
+</section>
+
+<!-- LLEGAR / LLEVAR -->
+<section id="llegar">
+  <div class="ancho">
+    <div class="rev">
+      <div class="kicker" data-es="Antes de ir" data-en="Before you go">Antes de ir</div>
+      <h2 data-es="Cómo llegar y qué llevar" data-en="Getting there and what to bring">Cómo llegar y qué llevar</h2>
+    </div>
+    <div class="dos">
+      <div class="caja rev">
+        <h3 data-es="Cómo llegar" data-en="Getting there">Cómo llegar</h3>
+        <ul>
+          <li data-es="<b>Bus:</b> unos 15 minutos desde el parque principal de Filandia (la finca indica $3.600 COP)." data-en="<b>Bus:</b> about 15 minutes from Filandia's main square (the farm lists $3,600 COP)."><b>Bus:</b> unos 15 minutos desde el parque principal de Filandia (la finca indica $3.600 COP).</li>
+          <li data-es="<b>Jeep (Willys):</b> la finca indica $35.000 COP desde Filandia." data-en="<b>Jeep (Willys):</b> the farm lists $35,000 COP from Filandia."><b>Jeep (Willys):</b> la finca indica $35.000 COP desde Filandia.</li>
+          <li data-es="<b>Dirección:</b> Corregimiento La India, Filandia, Quindío." data-en="<b>Address:</b> La India, Filandia, Quindío, Colombia."><b>Dirección:</b> Corregimiento La India, Filandia, Quindío.</li>
+          <li data-es="Confirme tarifas y horarios por WhatsApp antes de salir." data-en="Confirm fares and times on WhatsApp before you leave.">Confirme tarifas y horarios por WhatsApp antes de salir.</li>
+        </ul>
+        <div class="mapa"><iframe loading="lazy" title="Mapa Finca Akila" src="https://maps.google.com/maps?q=4.702595,-75.706103&z=14&output=embed"></iframe></div>
+      </div>
+      <div class="caja rev">
+        <h3 data-es="Qué llevar" data-en="What to bring">Qué llevar</h3>
+        <ul>
+          <li data-es="Ropa cómoda: jean y camisa de manga larga" data-en="Comfortable clothes: jeans and a long-sleeved shirt">Ropa cómoda: jean y camisa de manga larga</li>
+          <li data-es="Zapatos cómodos" data-en="Comfortable shoes">Zapatos cómodos</li>
+          <li data-es="Bloqueador solar y sombrero" data-en="Sunscreen and a hat">Bloqueador solar y sombrero</li>
+          <li data-es="Cámara y botella de agua" data-en="Camera and water bottle">Cámara y botella de agua</li>
+          <li data-es="Vestido de baño (hay baño en el río con los caballos)" data-en="Swimwear (you swim in the river with the horses)">Vestido de baño (hay baño en el río con los caballos)</li>
+          <li data-es="Sus medicamentos personales" data-en="Your personal medication">Sus medicamentos personales</li>
+          <li data-es="<b>El casco de protección lo pone la finca.</b>" data-en="<b>Safety helmets are provided by the farm.</b>"><b>El casco de protección lo pone la finca.</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVA -->
+<section class="reserva" id="reservar">
+  <div class="ancho rev">
+    <div class="kicker" style="color:var(--maiz)" data-es="Reservas" data-en="Booking">Reservas</div>
+    <h2 data-es="Arme su cabalgata y envíela por WhatsApp" data-en="Plan your ride and send it on WhatsApp">Arme su cabalgata y envíela por WhatsApp</h2>
+    <p class="lead" data-es="Llene los datos y el mensaje sale listo para la finca." data-en="Fill in the details and the message goes ready to the farm.">Llene los datos y el mensaje sale listo para la finca.</p>
+    <form id="form">
+      <label><span data-es="Nombre" data-en="Name">Nombre</span><input id="fNombre" required autocomplete="name"></label>
+      <label><span data-es="Tour" data-en="Tour">Tour</span><select id="fTour"></select></label>
+      <label><span data-es="Fecha deseada" data-en="Preferred date">Fecha deseada</span><input type="date" id="fFecha" required></label>
+      <label><span data-es="Personas" data-en="Riders">Personas</span><input type="number" id="fPers" min="1" max="20" value="2"></label>
+      <label><span data-es="Nivel de monta" data-en="Riding level">Nivel de monta</span>
+        <select id="fNivel">
+          <option data-es="Nunca he montado" data-en="Never ridden">Nunca he montado</option>
+          <option data-es="Principiante" data-en="Beginner">Principiante</option>
+          <option data-es="Intermedio" data-en="Intermediate">Intermedio</option>
+          <option data-es="Avanzado (galope)" data-en="Advanced (galloping)">Avanzado (galope)</option>
+        </select></label>
+      <label><span data-es="Estilo" data-en="Style">Estilo</span>
+        <select id="fEstilo"><option data-es="Me da igual" data-en="No preference">Me da igual</option><option>Western</option><option data-es="Inglesa" data-en="English">Inglesa</option></select></label>
+      <label class="full"><span data-es="Algo más (alojamiento, comida, preguntas)" data-en="Anything else (lodging, food, questions)">Algo más (alojamiento, comida, preguntas)</span><textarea id="fNota" rows="3"></textarea></label>
+      <div class="full btns">
+        <button class="btn wa" type="submit" data-es="Enviar por WhatsApp" data-en="Send on WhatsApp">Enviar por WhatsApp</button>
+        <a class="btn claro" href="https://www.instagram.com/fincaakila/" target="_blank" rel="noopener" data-es="Ver Instagram" data-en="See Instagram">Ver Instagram</a>
+      </div>
+      <p class="full nota" data-es="El precio, la disponibilidad y la comida los confirma directamente la finca." data-en="Price, availability and meals are confirmed directly by the farm.">El precio, la disponibilidad y la comida los confirma directamente la finca.</p>
+    </form>
+  </div>
+</section>
+
+<!-- SISMO -->
+<section class="sismo">
+  <div class="ancho rev">
+    <div class="caja">
+      <div class="kicker" data-es="Comunidad" data-en="Community">Comunidad</div>
+      <h3 style="font-size:1.6rem;margin-bottom:10px" data-es="Un techo, un hogar, un futuro" data-en="A Roof, a Home, a Future">Un techo, un hogar, un futuro</h3>
+      <p style="color:#3c4038" data-es="Tras el terremoto de magnitud 7,4 del 10 de agosto de 2026, Finca Akila, sus amigos y voluntarios abrieron una colecta para ayudar a reconstruir las casas de las familias campesinas vecinas de la finca."
+         data-en="After the magnitude 7.4 earthquake of August 10, 2026, Finca Akila, friends and volunteers started a fundraiser to help rebuild the homes of rural families near the farm.">Tras el terremoto de magnitud 7,4 del 10 de agosto de 2026, Finca Akila, sus amigos y voluntarios abrieron una colecta para ayudar a reconstruir las casas de las familias campesinas vecinas de la finca.</p>
+      <div class="btns" style="margin-top:16px">
+        <a class="btn osc" href="https://www.gofundme.com/f/a-roof-a-home-a-future-finca-akila-earthquake-relief" target="_blank" rel="noopener" data-es="Apoyar la colecta" data-en="Support the fundraiser">Apoyar la colecta</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="ancho">
+    <div class="marca" style="font-size:1.4rem">FINCA <span>AKILA</span></div>
+    <p style="margin-top:8px" data-es="Cabalgatas, café y alojamiento al pie de los Andes. La India, Filandia, Quindío, Colombia." data-en="Horseback riding, coffee and lodging at the foot of the Andes. La India, Filandia, Quindío, Colombia.">Cabalgatas, café y alojamiento al pie de los Andes. La India, Filandia, Quindío, Colombia.</p>
+    <p style="margin-top:8px"><a href="https://www.fincaakila.com/" target="_blank" rel="noopener">fincaakila.com</a> · <a href="https://www.instagram.com/fincaakila/" target="_blank" rel="noopener">@fincaakila</a></p>
+    <div class="vp">
+      <span data-es="App hecha por" data-en="App made by">App hecha por</span> <b>Vibras Positivas HM</b> · Caucasia, Antioquia ·
+      <a href="https://wa.me/573117700431?text=Hola%20Harold%2C%20vi%20la%20app%20de%20Finca%20Akila%20y%20quiero%20una%20para%20mi%20negocio" target="_blank" rel="noopener" data-es="¿Quiere una app así?" data-en="Want an app like this?">¿Quiere una app así?</a>
+    </div>
+  </div>
+</footer>
+
+<a class="btn wa flota" id="flota" href="https://wa.me/message/6FEICBD7VAYFG1" target="_blank" rel="noopener">WhatsApp</a>
+
+<script>
+const WA_NUM = "573122266488"; // WhatsApp de Dan (Finca Akila)
+const FOTO = "img/finca-akila.jpg";
+const TOURS = [
+ {id:"dia1", tipo:"dia", img:"https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcHKQtLaOdreXoVePQ5OTsDv91S8RKzy6UYJ6i9vewYnn8zfhvClPMNeg6omn8RVEzkxhM9QrmPVPy04Zxv4fllMK9e02w629mCEtiVjjB6C9CKbkW0pbWkAZSb2ZzZdpbzIlRs5MC-hWWdj24L_g6fB-memwzY8ajWQ0WP5FI25vxcsERvG2XtT21Ud4PebvNQ66BpCcmSC0Maqjgl4eMiQiKFgOABkabXPO5G=w1280",
+  dur:{es:"1 día",en:"1 day"}, tag:{es:"Todas las comidas",en:"All meals"},
+  t:{es:"Eje Cafetero en un día",en:"One-day Coffee Axis Tour"},
+  d:{es:"Ruta circular de 6 a 7 horas (9:30 a. m. a 4 p. m.) por ríos, valles, selva, pueblos coloniales y cafetales, con almuerzo a la orilla del río.",
+     en:"A 6–7 hour loop (9:30 am to 4 pm) through rivers, valleys, jungle, colonial towns and coffee farms, with a riverside lunch."},
+  p:null},
+ {id:"dia2", tipo:"varios", img:"https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfJmIVBk_Ot8woi3SnEHKnIcKHxMSxvmtMpI1_yBLMdR_C3NeyZxsUGlkWXhcHpwlML1fe0-mkolWiWXUDEmhmxcD8VsZ2GETkMQpcd0SOCh9TcAlC1_5TeJ0Q4bvvNHp3i5LXeIw0qk9iK23GmCkNEmigNtkHBu5XNXFSjCTttwtIfjFhw1aE-lBW2evQ-F7yjpev9nCac7MH7KyWMnjuPxEhILfzpY4F72DDF=w1280",
+  dur:{es:"2 días · 2 noches",en:"2 days · 2 nights"}, tag:{es:"Comidas y alojamiento",en:"Meals & lodging"},
+  t:{es:"Eje Cafetero, dos días",en:"Two-day Coffee Axis Tour"},
+  d:{es:"Caminos tradicionales con cruce de ríos y galope, de 6 a 7 horas diarias. Cada noche se vuelve a la finca a una cena casera. Se adapta al nivel de cada jinete.",
+     en:"Traditional trails with river crossings and gallops, 6–7 hours a day. Back to the farm each night for a home-cooked dinner. Tailored to each rider's level."},
+  p:null},
+ {id:"dia3", tipo:"varios", img:"https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQccdEN5QIeaccYrQpAv3rrltOxqJQEL0YRQHX7jPcNn0kbxdIgMPVff7A0UCV5TkiLuQPnEKp9abtIYQ9zARcIHG3lkQVayU5jNn0FAOGbGTvjoFg0dgOdNV8dgLqZczjW4fvwW_6-04HgHKIbr91HevHshn0OeskK-N3qSaOwavMvo2BFXtIBUDlJ5CnQ2HJg4y4T9DXnjIdX0vr_AMBMZt0QiYiku9inHaa6TvvI=w1280",
+  dur:{es:"3 días · 3 noches",en:"3 days · 3 nights"}, tag:{es:"Comidas y alojamiento",en:"Meals & lodging"},
+  t:{es:"Eje Cafetero, tres días",en:"Three-day Coffee Axis Tour"},
+  d:{es:"Un sendero distinto cada día, unas 6 horas de monta diaria. Puede seguir con el mismo caballo o cambiar.",
+     en:"A different trail every day, about 6 hours of riding daily. Keep the same horse or switch."},
+  p:null},
+ {id:"nevados", tipo:"varios", img:"https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcFuteECeMDY_oIOt9WrL5Q0nZD5rCdV6AMEtBDUu5TkStzcpt4kDkOsdllrjRd5oOm1t_VAa9xadWhdjZeETk1U3YC91PagyQdaWPJ1wBTHjAhOBqQJiRj7M2_T-iemF1e7eoZPWU2Fpv-VLH668bpIPYt9e0kD6flBFQqWSk0SLlSqj9rx7H3pqDgkSME5-HHbU9zbI-LJh8wURSgsRk0Atn8uRNEvnPmfn7_=w1280",
+  dur:{es:"4 días",en:"4 days"}, tag:{es:"Hasta 4.000 m",en:"Up to 4,000 m"},
+  t:{es:"Eje Cafetero + Los Nevados",en:"Coffee Axis / Nevados Tour"},
+  d:{es:"De los cafetales a los páramos del Parque Nacional Natural Los Nevados, con cóndores y la Laguna del Otún.",
+     en:"From coffee farms up to the páramo of Los Nevados National Park, with condors and Otún Lake."},
+  p:{es:["Día 1: 6–7 h a caballo por el Eje Cafetero, almuerzo junto al río, baño con los caballos y atardecer en la finca.","Día 2: en jeep hasta la base de Los Nevados, almuerzo con una familia local y subida empinada hasta 3.100 m. Noche en una finca familiar.","Día 3: a la Laguna del Otún (4.000 m), valles y cóndores, almuerzo en la laguna (4–5 h).","Día 4: desayuno y bajada por el parque; tarde de descanso y cena de despedida.","Día 5: despedida después del desayuno."],
+     en:["Day 1: 6–7 h ride through the Coffee Axis, riverside lunch, swim with the horses, sunset at the farm.","Day 2: jeep to the base of Los Nevados, lunch with a local family, steep climb to 3,100 m. Night on a family farm.","Day 3: Otún Lake (4,000 m), valleys and condors, lunch by the lake (4–5 h).","Day 4: breakfast and descent through the park; rest and farewell dinner.","Day 5: goodbye after breakfast."]}},
+ {id:"cowboy", tipo:"varios", img:FOTO,
+  dur:{es:"4 días",en:"4 days"}, tag:{es:"Vida de hacienda",en:"Ranch life"},
+  t:{es:"The Cowboy Experience",en:"The Cowboy Experience"},
+  d:{es:"Viva como vaquero en una hacienda de ganado y búfalos del Valle del Cauca: monta, trabajo con el ganado y noches junto al fuego.",
+     en:"Live like a cowboy on a cattle and buffalo ranch in Valle del Cauca: riding, livestock work and fireside nights."},
+  p:{es:["Día 1: amanecer en la hacienda; monta por potreros, ríos y montañas; cuidado de los caballos y cena.","Día 2: paisajes variados y visita a otras haciendas para conocer su historia; cena junto al fuego.","Día 3: trabajo práctico con el ganado, técnicas y tradiciones locales; tragos e historias al calor del fuego.","Día 4: desayuno y regreso (lo dejan en Pereira o en la finca)."],
+     en:["Day 1: wake up on the ranch; ride through pastures, rivers and mountains; horse care and dinner.","Day 2: varied landscapes and visits to other ranches to learn their history; fireside dinner.","Day 3: hands-on livestock work, local techniques and traditions; drinks and stories by the fire.","Day 4: breakfast and head home (drop-off in Pereira or back at the farm)."]}}
+];
+
+let L = localStorage.getItem("akila-lang") || "es";
+let filtro = "todos";
+const tx = o => o[L];
+
+function pintarTours(){
+  const lista = document.getElementById("lista");
+  lista.innerHTML = TOURS.filter(t => filtro==="todos" || t.tipo===filtro).map(t => `
+    <article class="tour rev vis" id="t-${t.id}">
+      <div class="foto"><img loading="lazy" src="${t.img}" alt="${tx(t.t)}" onerror="this.onerror=null;this.src='${FOTO}'"><span class="dur">${tx(t.dur)}</span></div>
+      <div class="txt">
+        <span class="tag">${tx(t.tag)}</span>
+        <h3>${tx(t.t)}</h3>
+        <p>${tx(t.d)}</p>
+        ${t.p ? `<ol>${tx(t.p).map(x=>`<li>${x}</li>`).join("")}</ol>` : ""}
+        <div class="acc">
+          ${t.p ? `<button class="ver" data-ver="${t.id}">${L==="es"?"Ver itinerario":"See itinerary"}</button>` : ""}
+          <button class="res" data-res="${t.id}">${L==="es"?"Reservar este":"Book this one"}</button>
+        </div>
+      </div>
+    </article>`).join("");
+  const sel = document.getElementById("fTour");
+  const v = sel.value;
+  sel.innerHTML = TOURS.map(t=>`<option value="${t.id}">${tx(t.t)} (${tx(t.dur)})</option>`).join("") +
+    `<option value="medida">${L==="es"?"Aventura a la medida":"Custom adventure"}</option>`;
+  if(v) sel.value = v;
+}
+
+document.getElementById("lista").addEventListener("click", e => {
+  const v = e.target.dataset.ver, r = e.target.dataset.res;
+  if(v){ const c=document.getElementById("t-"+v); c.classList.toggle("abierto");
+    e.target.textContent = c.classList.contains("abierto") ? (L==="es"?"Ocultar itinerario":"Hide itinerary") : (L==="es"?"Ver itinerario":"See itinerary"); }
+  if(r){ document.getElementById("fTour").value=r; document.getElementById("reservar").scrollIntoView(); }
+});
+document.getElementById("filtros").addEventListener("click", e => {
+  if(!e.target.dataset.f) return;
+  filtro = e.target.dataset.f;
+  document.querySelectorAll("#filtros button").forEach(b=>b.classList.toggle("on", b===e.target));
+  pintarTours();
+});
+
+function idioma(l){
+  L = l; localStorage.setItem("akila-lang", l);
+  document.documentElement.lang = l;
+  document.querySelectorAll("[data-es]").forEach(el => el.innerHTML = el.dataset[l]);
+  document.querySelectorAll(".lang button").forEach(b => b.classList.toggle("on", b.dataset.l===l));
+  pintarTours();
+}
+document.querySelectorAll(".lang button").forEach(b => b.onclick = () => idioma(b.dataset.l));
+
+document.getElementById("form").addEventListener("submit", e => {
+  e.preventDefault();
+  const g = id => document.getElementById(id);
+  const tourTxt = g("fTour").selectedOptions[0].textContent;
+  const msg = L==="es"
+    ? `Hola Finca Akila, quiero reservar una cabalgata.\n\nNombre: ${g("fNombre").value}\nTour: ${tourTxt}\nFecha: ${g("fFecha").value}\nPersonas: ${g("fPers").value}\nNivel: ${g("fNivel").selectedOptions[0].textContent}\nEstilo: ${g("fEstilo").selectedOptions[0].textContent}\n${g("fNota").value ? "Nota: "+g("fNota").value+"\n" : ""}\n¿Me confirman precio y disponibilidad? Gracias.`
+    : `Hi Finca Akila, I'd like to book a ride.\n\nName: ${g("fNombre").value}\nTour: ${tourTxt}\nDate: ${g("fFecha").value}\nRiders: ${g("fPers").value}\nLevel: ${g("fNivel").selectedOptions[0].textContent}\nStyle: ${g("fEstilo").selectedOptions[0].textContent}\n${g("fNota").value ? "Note: "+g("fNota").value+"\n" : ""}\nCould you confirm price and availability? Thanks.`;
+  window.open(`https://wa.me/${WA_NUM}?text=${encodeURIComponent(msg)}`, "_blank");
+});
+
+// Fecha mínima = hoy en hora de Colombia
+const hoyCO = new Intl.DateTimeFormat("en-CA",{timeZone:"America/Bogota"}).format(new Date());
+document.getElementById("fFecha").min = hoyCO;
+
+// Barra sólida al bajar + parallax
+const barra = document.getElementById("top"), par = document.getElementById("parallax");
+addEventListener("scroll", () => {
+  barra.classList.toggle("solid", scrollY > 60);
+  const r = par.parentElement.getBoundingClientRect();
+  if(r.top < innerHeight && r.bottom > 0) par.style.transform = `translateY(${(r.top - innerHeight/2) * -0.15}px)`;
+}, {passive:true});
+
+// Aparición y contadores
+const io = new IntersectionObserver(es => es.forEach(en => {
+  if(!en.isIntersecting) return;
+  en.target.classList.add("vis");
+  en.target.querySelectorAll("[data-n]").forEach(b => {
+    const n=+b.dataset.n, suf=b.dataset.suf||"", t0=performance.now();
+    (function paso(t){ const k=Math.min(1,(t-t0)/1400); const v=Math.round(n*(1-Math.pow(1-k,3)));
+      b.textContent = (n>=1000 ? v.toLocaleString("es-CO") : v) + suf; if(k<1) requestAnimationFrame(paso); })(t0);
+  });
+  io.unobserve(en.target);
+}), {threshold:.18});
+document.querySelectorAll(".rev").forEach(el => io.observe(el));
+
+idioma(L);
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+</script>
+</body>
+</html>
