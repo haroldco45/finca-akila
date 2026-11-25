@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-24T16:27:28-05:00",
+  "actualizado": "2026-11-24T23:30:06-05:00",
   "clima": {
     "ahora": {
       "temp": 22.3,
@@ -40,6 +40,14 @@
     ]
   },
   "noticias": [
+    {
+      "titulo": "El Parque Nacional Natural Los Nevados inició su último cierre temporal del año: el sector Norte continúa abierto al ecoturismo",
+      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEdWTExoZUJNTmpOS2FGeFB6cUlXNDdra2FaZjJadkp2X1o2dWlJZXl2QjF2NVczaHdJWlZFejNCbWlGemU5YUFSLWFMZi1aeEo3dFpPNnU2MUk4NEMzdEh1bXQwWm1jWUNHdnh3SmYyREpqUHp1X29WZTNFMTJTVEhUU2ZDWlI1a0NKY2Y4am5PVWJmZHkyeGM4ell6N1dlTEZSQ2tqNEYwdw?oc=5",
+      "fuente": "Parques Nacionales Naturales de Colombia",
+      "fecha": "2026-11-24T23:56:10.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
     {
       "titulo": "Así se prepara el turismo en el Eje Cafetero para la temporada de fin deaño tras terremoto",
       "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWjJvN3BHMnV6R3c3RjhvZzJ3VUJJWlBEV3lEb2wwQnYza2JpaUhad2pqWDhZaWVvZ3E5cXFZTzNDX2VzTUZLMVNDeGV4UTVwRkJPY3EyeTdDVW1DWHc2VS1GZ2ZMZzVFQzM0bmp0eXFUdnBNY01faWhZOXVlQi1vbGJrUk9SeDB5S0NjY2pKVk40eDBXNmI5eG41eFBaa2lHd1E2bExwcGstYkpCV0FHcHRRbzRJWGVtY2hWdFE1RGZveWxhejB5Tw?oc=5",
@@ -97,14 +105,6 @@
       "idioma": "en"
     },
     {
-      "titulo": "El teatro se une a la solidaridad para reconstruir el hogar de dos adultos mayores en Filandia",
-      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1NoTXEzellJelZBSlk3dDdwYUUwQ3V0Rmlyc0ljUmJkcVVadHZmY05nVTdPVFV2LVRXeU1nTXFDRlgwRGR6SmoxX1NyT2JsbWhxTmkwa21fdHRXa0ZaeVRWaHBoSTBzQlZ5S2MzQUFtM05wVU1LdVdndXFRcV8zdGNLTGZjT29XeHNPM0tlX2RoWmw5cGctcm5nN2NpemhDblFlSU1qS2xoUS05THhzS1R4TzZSamJnMEEtOGRZLUpxbjR0V2xyazNGTUNRZw?oc=5",
-      "fuente": "Crónica del Quindio",
-      "fecha": "2026-11-16T06:02:58.000Z",
-      "tema": "Filandia Quindío",
-      "idioma": "es"
-    },
-    {
       "titulo": "La Gobernación del Tolima y la Gobernación de Caldas restablecieron el pico y placa ambiental en la vía Murillo-Manizales para proteger el Parque Nacional Natural Los Nevados. Conozca los horarios, placas autorizadas y restricciones. 🔗 Encuentre el link",
       "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYU5PMXAycUhOTUFvSDc1QklnR0hqX25SRUJ5UnZKc2ZFd0pmNXlqZUpKcUJWa2hyN05HQUhwVGJUYW51dlFRdFpWRnNRb0dNTGFXWENLV2FoLWJ0dzJ3d09IdG40SjNxX2x4ZE9WZF94MHVSNzNZTDQzVkJhQUxxQ0pqQm5Wb1Z2R1hQcEEzMGtoaUV4UUVpYWgwV3V6aWlOX2FEMDdVb0JkaExGby1aOWFBSWxUbTYtaVZOc1NvNEVwRlU3N2lTbl9aaHBMX3pPbG1SaVpTVlRvT1RPYWlUWUt6eXRuTTlkeERaazQ0SQ?oc=5",
       "fuente": "Facebook",
@@ -117,6 +117,14 @@
       "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGRjaDVvUzhUVndWUFZ5NnpseUhwQWFDNmtreHprTnBHalNlZ3hNdjNoc3Q3OWxraE9oZUFQQ1pUY0E1SE1zLVY2ekdYQjlCSWVXQi1abUR1eUtXNW9aSnBlXzkxX0xiRGFfNEYzdzFxcERST1duQ2N5Sm9sTE9ZU3JQUkY2a3VTQmY0UkQ2WFUyenpDWlc5dm5RaTVsZlJDejl4ZEpid3E?oc=5",
       "fuente": "Zona Cero",
       "fecha": "2026-11-14T01:27:17.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "A dónde viajar durante el puente festivo del 14 al 16 de noviembre",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVWVnVUpnLVUwcW1QTDFvLUFSbjRsVm5ZNHBSUFhld29PandNWWhuM2tXRnVlUTYzZGc1VXc0MUpiaVhscXZlT0dUclFLSDQ4WnY3U2xhRkE4WkZHVTlQcFFqcFhraGlsWEQyV3ZrNmZFREs5aEZMQksyeC1qVWp2TEpxclFQbjY1al9pQzNhTFBRcXR3VTlRa0hNUEdYaEM5OXFUTUlzeXZrNGY4d0hSb0JWdEJ5MjJXb0E?oc=5",
+      "fuente": "Viaja por Colombia",
+      "fecha": "2026-11-11T15:31:38.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
@@ -140,16 +148,8 @@
       "titulo": "Por fin, están notificando a beneficiaros de tarifa diferencial de $700 pesos en peajes en Quindío",
       "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUVI1MThiWmswSXlwaURYOTVuU2NUSUVMbXRtN2hIcEVTOXFwSGdkNHU4RW1ucnZSdk51SXlZOUJ2eGNCMWs4ZC1nUk5meVBfazhXTndQMHBVSU9lYW9IUEZIbHJGSUxSdlNnZ3RlbUJURGkwZklLckxxdG5FTmZUNk5ra1lDSVNCbXBXdjlEazRoWDlSUE9hNERaMXZKUm9fSVo3ZXVJX003SWJvWGh1YjE1NmdjcTdmbFJiWUQxcHdHc2VlVFM3VVI2SdIB3wFBVV95cUxNZzlfNk9IenFXOXBpa2dmd2VIa3BuVlBNSU1YSlZqR1NDUFFybUZ5ODFwREx5cnEyWkJmOHJUd2dEeS0zNVZMajJDWW96WTRjYXo0QmkwMDllUXpubG1sUEhUM3VnZUdGTUVlQm9za0VHaWZreGhlTnJyTVhMUXo4M1NjMlNuRGdNS0g0OF9Kd2wta1NqNW1SSzFBWVd3cHlVMnE3bFJWWm9XZV9KY2xQZktCclE5dDh2aDB5cG9nN3BRampjc2kxWEVzUGtLNUp6dzVRZ3VvYUJ0dWREWElV?oc=5",
       "fuente": "Caracol Radio",
-      "fecha": "2026-11-08T16:59:33.000Z",
-      "tema": "Filandia Quindío",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Parques Nacionales Naturales llevará la biodiversidad de Colombia a Bogotá: estas serán las actividades por sus 66 años",
-      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXllY1YxM2laNldLdkFlYzdCY1dvSVFSeWJDbjVkbGU4MWVSVWV4SkR0RkIxT2R0SXMxdHdXX2w1bU16VmI0UmdJb202Skk0S2U2bDB3SVhPVG5KX2dsQ3M3VG9ma1BVTXZ2alVHeFlFMkhZQ08xZXNaUGdjc2ZUOWNkanBiM0ZTNWJIUEJhYTRoMUQzMnRXVnlHUUNDeUhpUEtBY2EwWXI3ZVRRZFBFY2JZMWxoaFVndEcxcVBzcTNBWFN30gHEAUFVX3lxTFBYVEk5amFmcXpaU2dIMkZrMjVvTktKRmIwZmJ1X2lKTGlkeFBFdGZ1YlBiRnNzNzYzeGxXZUVSc2Zudld3ajNUSlMtXzdMX3hZRUVSVGJMZU45TmJKRGdxcGsyWjZIdlh5QWkweXJJWHpOZHNjRDA4NVVPNW1HQXhtdnRKelZhbk85ancyaGFHZVJaNk1KbkNTRHI5Mlk3NkNmN1c1SjNCM0Z5Ny1wVmE1cnRvQ1haSGZ5VzRKRTh4eEZGdnk?oc=5",
-      "fuente": "La FM",
       "fecha": "2026-11-08T08:00:00.000Z",
-      "tema": "Parque Nacional Natural Los Nevados",
+      "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
