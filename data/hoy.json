@@ -1,45 +1,53 @@
 {
-  "actualizado": "2026-11-26T00:22:53-05:00",
+  "actualizado": "2026-11-26T10:36:12-05:00",
   "clima": {
     "ahora": {
-      "temp": 18.4,
-      "humedad": 83,
-      "lluvia": 0.1,
-      "codigo": 51,
-      "viento": 2.2
+      "temp": 25.5,
+      "humedad": 60,
+      "lluvia": 0,
+      "codigo": 1,
+      "viento": 5.4
     },
     "dias": [
       {
         "fecha": "2026-11-26",
-        "max": 25.9,
-        "min": 15.5,
-        "lluvia": 80,
-        "codigo": 51
-      },
-      {
-        "fecha": "2026-11-27",
-        "max": 27.8,
-        "min": 17.7,
-        "lluvia": 86,
-        "codigo": 81
-      },
-      {
-        "fecha": "2026-11-28",
-        "max": 25.5,
-        "min": 17.3,
-        "lluvia": 92,
+        "max": 26.6,
+        "min": 16.8,
+        "lluvia": 96,
         "codigo": 55
       },
       {
-        "fecha": "2026-11-29",
-        "max": 25.7,
-        "min": 15,
+        "fecha": "2026-11-27",
+        "max": 24.8,
+        "min": 17.3,
         "lluvia": 94,
-        "codigo": 53
+        "codigo": 95
+      },
+      {
+        "fecha": "2026-11-28",
+        "max": 26.3,
+        "min": 17.1,
+        "lluvia": 93,
+        "codigo": 80
+      },
+      {
+        "fecha": "2026-11-29",
+        "max": 25.8,
+        "min": 17.3,
+        "lluvia": 96,
+        "codigo": 95
       }
     ]
   },
   "noticias": [
+    {
+      "titulo": "El Hospital Mental de Filandia se consolida como centro de referencia en salud mental y atención post-sismo del Quindío",
+      "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdWRnZG1rNGtmTnl6b1hkRlRwMmwyRVBpQUhFSlBqMG1iN19XQThFUnR2TU0yVm9aMXpJUVNWa0NncndRZFJ0UEZUWjZGcnRYMGJZdHU0NjlVNHBNQTlydWtNRlREcWNRMUNKdW5TWEp5WE1fYWdKTVd4OXdmblh6N0kwOWZhZmRyQ2REdm1oUHc0UTRQaTRoVndRNEdkOUxkdm5SMTJOUVZpZmI4clUwMXVJR05LdGpmbXR3UFNlTWlRSjIwUEpPOFdXMUl2Q0ZhOHNyZVhQUjZGcmhIaVVkQWFYLW1LYzQyc3prcTlDWQ?oc=5",
+      "fuente": "Crónica del Quindio",
+      "fecha": "2026-11-26T05:02:46.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
     {
       "titulo": "El Parque Nacional Natural Los Nevados inició su último cierre temporal del año: el sector Norte continúa abierto al ecoturismo",
       "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSTJVdUNaakE4dTJySFl1X3VOWHNHMG9KZllOejNKekhja1VOTEdLU21BZzF3am5jWmdxWXR5bGV0Wmd0VllBMlFCdUpnWmpSNjJkMzVVQ0Zpb0Y5bDBiUWd3cHM1cmRaa2dacDNwY1dEYkg1OWFNcUljOUhPa2l0eEg5SW91eXRwTld6N0RrOENlNXZ2R2MzZzlXVGxncUlUYnBURjZQR1BfckU?oc=5",
@@ -65,19 +73,11 @@
       "idioma": "es"
     },
     {
-      "titulo": "Alquímico: bar cartagenero entre los mejores del mundo por su hospitalidad",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGRjaDVvUzhUVndWUFZ5NnpseUhwQWFDNmtreHprTnBHalNlZ3hNdjNoc3Q3OWxraE9oZUFQQ1pUY0E1SE1zLVY2ekdYQjlCSWVXQi1abUR1eUtXNW9aSnBlXzkxX0xiRGFfNEYzdzFxcERST1duQ2N5Sm9sTE9ZU3JQUkY2a3VTQmY0UkQ2WFUyenpDWlc5dm5RaTVsZlJDejl4ZEpid3E?oc=5",
-      "fuente": "Zona Cero",
-      "fecha": "2026-11-23T00:00:26.000Z",
-      "tema": "Filandia Quindío",
-      "idioma": "es"
-    },
-    {
-      "titulo": "10 destinos para disfrutar del Día de las Velitas en Colombia y encender la esperanza",
-      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN2NIZ2FlVHhWaDJ5UDBZZkhOTWVXdUozSHRnSEZGZUJ1T2lqM09jaEIydWEzYjczeEhxTWtrYTF3SUdEZS1icFYyRFV2SG5IN1hYWDdFVnY3b292ODJyeWtsZE1hTk80eUFpT3VOellBMlR1ZHlKZ3RkenVSRTRZb3k4ZG1QVUN3eVdlQzY2TnVfVEhtVjI2OEsyU0w3a0VvSVNIR1EtNnRkQkdOMjk2Q0Y5U3RNRmJEb0h0UkRTLWVTX00tSXBSNThBZkV5WXYyMTJj?oc=5",
-      "fuente": "Viaja por Colombia",
-      "fecha": "2026-11-20T20:49:29.000Z",
-      "tema": "Filandia Quindío",
+      "titulo": "El agua que baja de los nevados",
+      "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUERSZGV3YTRkdDJtbE1CM0NYUS1Vc0lrdkRoOV9mdlg4Vk0yNDAxZW1jd1hfVkh2T2NDMUkySkZ4ZzRUaTRHdzFLdjBaSl9NSHRiNnRJa2Z5LTdDdDcxLUd5LXRnLTBuc0hWbVJ4Q2VMRlpTV0JXVGdaN3ZKV2R5NlRMQU9UZHRRZmhQZ0V1d3pNLU5X?oc=5",
+      "fuente": "El Colombiano",
+      "fecha": "2026-11-21T14:40:28.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
       "idioma": "es"
     },
     {
@@ -89,10 +89,10 @@
       "idioma": "es"
     },
     {
-      "titulo": "En el Quindío evidencian la falta de especialistas en psiquiatría y la alta demanda en salud mental",
-      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdjViWjg0VzVJMU5TQTR1NzFScnByRmJvZGFtcU8wSERRWnIwN2ZsS0NpYjJUaWJKdmJvYktaVERfNkJnQ01sX01veWVJTzVjQ1Y5Uk9JZVhDbnkxdWFmZE5NaXREc0gtZThPblVyamQzNkFxQnJibzNrTWNVX2RSWFhKRUVOTFM2SWQxQ0NLeDdvblN3dnVaMER4bzVzSGVZdlhWNHk0aHFka0ptMHB6bTF3THU5ZW1xVTBOcUNrMmtpZE1BMW1jLXRWZFF4bzDSAeMBQVVfeXFMTk5WOXh2aGZibVRUOVN0WU0tbW1ucHJWaVQ5MF9GMEpxSFhQaHlJcVF3SmhoZlJkRlYzMVNfSURkWVAtcnZHV0V2MVJzcE5aVDAtNnRMQXZ0NTB0NkY4RlZieFNHU0ZzUFNKSHJKZjlXczNjTmMzYm1YV0h3MDBxYnJubm9JM0tFQlZzN0daTFNTN05KU0w3d3NhdmljRUFxQXRQQzhwTWk1VUptMXBvWFFIbGRmUXVwdVF1alNrT0d1ZkR3SnZGNTdWR0pUQl9TQktsd1NNQW4yWXZOT3BrRGxKa00?oc=5",
-      "fuente": "Caracol Radio",
-      "fecha": "2026-11-17T22:25:53.000Z",
+      "titulo": "Sensores inteligentes llegan a cultivos de un municipio del Eje Cafetero para mejorar la producción",
+      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONk9xbTh4Z1FlUXBpdTIyNVp2NWJxeXIyNUZ6ZlZCRjVwclRLYnNYLVE2VXhFbFlydFY3bHVIV2NnNXotY1VJbjVXSmxpcWNkUC02R0VweVllUm1VczlwUlNNb1Z4MlpLS25KQ1I4Zm9yS05FR09TZW1MaW1xajJTV2E2dWYyOENHMUlQaTREdVg3c0FlSDVCS09pZGhHcHRyUjhBS2hJcXFKcjlSREg1OGlYc2ZhOVJibDlGNzdMZ2NUUQ?oc=5",
+      "fuente": "La Patria",
+      "fecha": "2026-11-17T17:11:37.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
@@ -121,6 +121,14 @@
       "idioma": "es"
     },
     {
+      "titulo": "Habitantes de municipios del Eje Cafetero comienzan a recibir aprobación para pagar $700 en el peaje Circasia",
+      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYS1XU3RISmdpa05Ibzh2WDJUM3lVd3FFbV83bTdBUDdHeThHbXJfUkJZaFhkSWlnV0xPN29wb0hBRG05MDJqZmQ2bnBBcUFhNkotX3IyMV8yRWkwd1RCQlFHSjBNLW1NcDdoeGZ4TTZoNHA0SFVYNDR0REpBWDhQX0hKd0V3RTJDN2VGYUNXaWNNVjBzdGRPQjNuaEtMU3BZUFBwS1N6Y2hBQVhHZ1RHald5RzdVcXVFXzRLdmpTWlk?oc=5",
+      "fuente": "La Patria",
+      "fecha": "2026-11-11T08:00:00.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
       "titulo": "Bomberos de Manizales fortalecen sus capacidades de rescate en alta montaña con entrenamiento en Los Nevados",
       "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUzBfSzZkX19Tb3dmSDFfak1qVlVQaU12UGlwV1Z2YTFmb1BNcFBhMnBRbFNfZl9zN0c0TVNUNUp3cW50cnNGa3BuMzJ6NFdMZ2lwMTY0eERYVkx5b1kzRXhGRXFHZF9rMGNfVVFIazJZbVZkNzdwVzI1WG10N214U1haMXgzZVdKTFRkek9hdVhFZU1DcXd3Q1lXVy1sX0RDNEhpVFJYMVhrU2JIaWFJRXI0WXZjaWFjS25vcEFEbTlId3Bqb1BYS2R3QW5ieGppZl93ejBaS0hQS0xPZnAzMlNYZm03SUZFM3c?oc=5",
       "fuente": "Centro de Información – Alcaldía de Manizales",
@@ -134,14 +142,6 @@
       "fuente": "Caracol Radio",
       "fecha": "2026-11-08T08:00:00.000Z",
       "tema": "Filandia Quindío",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Parques Nacionales Naturales llevará la biodiversidad de Colombia a Bogotá: estas serán las actividades por sus 66 años",
-      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXllY1YxM2laNldLdkFlYzdCY1dvSVFSeWJDbjVkbGU4MWVSVWV4SkR0RkIxT2R0SXMxdHdXX2w1bU16VmI0UmdJb202Skk0S2U2bDB3SVhPVG5KX2dsQ3M3VG9ma1BVTXZ2alVHeFlFMkhZQ08xZXNaUGdjc2ZUOWNkanBiM0ZTNWJIUEJhYTRoMUQzMnRXVnlHUUNDeUhpUEtBY2EwWXI3ZVRRZFBFY2JZMWxoaFVndEcxcVBzcTNBWFN30gHEAUFVX3lxTFBYVEk5amFmcXpaU2dIMkZrMjVvTktKRmIwZmJ1X2lKTGlkeFBFdGZ1YlBiRnNzNzYzeGxXZUVSc2Zudld3ajNUSlMtXzdMX3hZRUVSVGJMZU45TmJKRGdxcGsyWjZIdlh5QWkweXJJWHpOZHNjRDA4NVVPNW1HQXhtdnRKelZhbk85ancyaGFHZVJaNk1KbkNTRHI5Mlk3NkNmN1c1SjNCM0Z5Ny1wVmE1cnRvQ1haSGZ5VzRKRTh4eEZGdnk?oc=5",
-      "fuente": "La FM",
-      "fecha": "2026-11-08T08:00:00.000Z",
-      "tema": "Parque Nacional Natural Los Nevados",
       "idioma": "es"
     },
     {
@@ -161,27 +161,19 @@
       "idioma": "es"
     },
     {
-      "titulo": "una semana para celebrar 66 años de protección de la biodiversidad",
-      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2NROVRQMkhwdGNYWFpZelk1YjNDVEJSUEt4c2JROGs4d0ZUMXJUc19lZTdybHJYVkxTTjZCdHFiZnp0WEN0OEl0alFTZHFIUG9JMlotMnl6OUpxZnROaXZPa0lNTWM1eU9UaXFhNXd5bDQ2WVRkbjFpRzlia1Bzd21MY3ZBNzdTb2hWdXJKV0cwT1FUYmxWWmpmZ3MxU0FvWXhoQzl2QVk5Yy1lWGxKczRZYzc2MmNVMjFJZA?oc=5",
-      "fuente": "Parques Nacionales Naturales de Colombia",
-      "fecha": "2026-11-06T08:00:00.000Z",
-      "tema": "Parque Nacional Natural Los Nevados",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Varios botánicos académicos analizaron ejemplares recolectados junto a guardaparques en bosques húmedos montanos, confirmando rasgos morfológicos particulares que acaban de ser divulgados ante la comunidad internacional dentro de la revista espe",
-      "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNU1vOFY3aVBSUXNHaWZkc054V2o3M1g2MnhFanJkbHUxaUhhY1BVYUt1eENoeWFRZ3FYdy1CdFF4bjA0R1J5S2xsNTF5aG84NVZhWlVoaEo1QUpnRVdPanBJYnRzcEZlT1hwcjRtTzdvZ3g1M3JyM3AtMkk3Z2NCLWVqZmN0M0hDdmloLUZtWXdJOTFvbFdKb0RBMVRQNDY0X3NDeVVtRjdIam90NVA3dHRzeEdzbVExaGVBelpxYm5ZTFVvUVJxaGpRLW5PdEVQdFRKRDhXSjB6anpiX3RCd3EyR0x1bHB0dmlR?oc=5",
-      "fuente": "Facebook",
-      "fecha": "2026-11-05T08:00:00.000Z",
-      "tema": "Filandia Quindío",
-      "idioma": "es"
-    },
-    {
       "titulo": "Parece sacado de Disney: así es el mirador colombiano inspirado en Encanto",
       "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPelkxcXZNNFF6NlhBS2llVGhCOF92ZGpSTTNwdV9lYzFad0E4ZHlCeG1qVE90emY5NFYwWXJIaVpsTmZQZld4aFhyeE1BWHBNZUVvYmIzN2t5azVJS2VacW5zbzlPaUpZcHJKYVdUdW85SU1lMlJWaVRVTW5LZGdnalE1UVFmS3NaZlE5NzhZeHR5b0NPeHlxZGo1emZ2WWJ5aXhuMDh3aW9GS3ZjSkhmdHNhME9HUXRYOWZ4RFNB?oc=5",
       "fuente": "Revista Semana",
       "fecha": "2026-11-03T08:00:00.000Z",
       "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Bomberos Oficiales de Manizales se capacitan en Soporte Vital Internacional de Trauma con énfasis en alta montaña",
+      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOc1RhZFhiUzVzOTFaTTRXdTg3VXVpZ3VTeVVNMmF0WTJhdUpTUHkwdktyb1pwakd0bTM4VGFLUjJ4NGlSeXZ1d0I0bXpIR0tTVnhFTExfNFZZTWc2anZaZ2tOclc5dGlGOU9icC0zMDM2cWZJWk1EOHZpV0EzWXpRRUpXdXBMMkhCZG1fcHNMQ05nYUFkMC1jWm0tR1hUdndqcjVob0w1TWJodldIbG5qY2dZTjVfTUpjR1d4Wjl2cTNjQTJpNF93eUh2TzFRUFc4VkFoSVNuV2lYQlRHOGlubVJfa3AtYjlDc21pMDE0UXI?oc=5",
+      "fuente": "Centro de Información – Alcaldía de Manizales",
+      "fecha": "2026-11-03T08:00:00.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
       "idioma": "es"
     },
     {
@@ -193,17 +185,25 @@
       "idioma": "es"
     },
     {
-      "titulo": "Pico y placa ambiental regirá en el corredor Murillo-Manizales durante Navidad y Año Nuevo",
-      "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWDVJMEdZQ1BjZjdYQkdWTV9ELVp3UmQyNUZuVXo2VlMzYllYVUh2TFBDYWYwOFBXdVViaUVtU2NKcFh1SnJmQVVBZlJ2bnptbzZtUUZ4ZDdzSVV0eEtjYWZMbzBaa1pQYnJZbTlSTl9zQWRvY0tqMVEwYmVUb3ZnbEQzRF80UjdkUTROM2tneWdFQXJpdkRDNjZUbWw1dVpuY1dmX1lSazdoUVFIMWtxSFRUaHo4b1EyX09zczk3VQ?oc=5",
-      "fuente": "La Patria",
+      "titulo": "Encanto, película de Disney basada en Colombia, regresa a cines por una noble causa",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQckpBVDhEMjNGWUJxZ09IMEtTcnZyMTRkNHlyczVoOUdEZHM3X0JmM0N6YW1DZTBSd0prQXFjU0RUak83R1ZoZEVNQ0JRSURPbmN3SEtJU2pvWHdJTmZodzB6ZUlMOHN0OEpST1M4VjZMcldGMG0zX240Q3lyVVdoVnVjQklwUlFnblFlSkx4Yl85TG1lTkZyeHNId0hTV19KVjJQTEhHTnEydlEwemF3SmdjRmxxNDBsdjBxLWRwNjNHR0hWYjZCMmlFbENKVFU?oc=5",
+      "fuente": "Revista Semana",
       "fecha": "2026-10-30T07:00:00.000Z",
-      "tema": "Parque Nacional Natural Los Nevados",
+      "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
       "titulo": "El corredor Murillo-Manizales tendrá pico y placa ambiental: así funcionará la medida",
       "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMXU0U3FWRmxURFhmQm5OV3NRelB4bWEwWkVVVzBUa1VwZ2pzMk5WLUVxaEo5Nk1aSE5YM0JicjhQLTFOckRRdlZEWG5CSTBua0U2V3EzdHk3Rkk4Y3BNTy1iUFhtQndUX0hzVFhKek5IdU5YLUM3V3gwblpzd0RhTjFMSkp0LW9ENllkVjUzZXlWcE1zQlNjZU5lZllqUHh3UVlXMTBuQUh1ODBtbTg2Y2d5NmJEeVRmc1F1ZjhkOUp4c0R6MGhPSNIB4wFBVV95cUxQMXRjY2NOUGtPMTJZc3FUdUd1T3M0UmpfSjRydUZOMHlIeWtCelJKY0JmNnlDc3lQaG5MdzFySkM5VXpzLUtVTFJwa2dqMzJmblZLYk1JUnN6d0pIYndRU19nMVl1THktVVJTemMwcDkwTEpQSFItcEx1SzJjN1BUOTJkV2FXdnl4dmJfX0tsQU5PVGJOWUluYW92MWpnVkNZMUZnZ1dqeGdubU16SEdyMUNqUnV1dzQxY0ZIX3U4NVBucGZkNk1qekF5ZEptbzdMd3hGSVZ6MU1nSHJYWmpGNmdzOA?oc=5",
       "fuente": "Infobae",
+      "fecha": "2026-10-30T07:00:00.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Pico y placa ambiental regirá en el corredor Murillo-Manizales durante Navidad y Año Nuevo",
+      "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWDVJMEdZQ1BjZjdYQkdWTV9ELVp3UmQyNUZuVXo2VlMzYllYVUh2TFBDYWYwOFBXdVViaUVtU2NKcFh1SnJmQVVBZlJ2bnptbzZtUUZ4ZDdzSVV0eEtjYWZMbzBaa1pQYnJZbTlSTl9zQWRvY0tqMVEwYmVUb3ZnbEQzRF80UjdkUTROM2tneWdFQXJpdkRDNjZUbWw1dVpuY1dmX1lSazdoUVFIMWtxSFRUaHo4b1EyX09zczk3VQ?oc=5",
+      "fuente": "La Patria",
       "fecha": "2026-10-30T07:00:00.000Z",
       "tema": "Parque Nacional Natural Los Nevados",
       "idioma": "es"
