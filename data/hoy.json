@@ -1,41 +1,41 @@
 {
-  "actualizado": "2026-11-25T18:28:40-05:00",
+  "actualizado": "2026-11-26T00:22:53-05:00",
   "clima": {
     "ahora": {
-      "temp": 19.3,
-      "humedad": 93,
-      "lluvia": 0,
-      "codigo": 3,
-      "viento": 4.8
+      "temp": 18.4,
+      "humedad": 83,
+      "lluvia": 0.1,
+      "codigo": 51,
+      "viento": 2.2
     },
     "dias": [
       {
-        "fecha": "2026-11-25",
-        "max": 25.8,
-        "min": 17.4,
-        "lluvia": 94,
-        "codigo": 81
-      },
-      {
         "fecha": "2026-11-26",
-        "max": 28.2,
-        "min": 17.3,
-        "lluvia": 96,
-        "codigo": 80
+        "max": 25.9,
+        "min": 15.5,
+        "lluvia": 80,
+        "codigo": 51
       },
       {
         "fecha": "2026-11-27",
-        "max": 25.6,
-        "min": 17.6,
-        "lluvia": 98,
-        "codigo": 80
+        "max": 27.8,
+        "min": 17.7,
+        "lluvia": 86,
+        "codigo": 81
       },
       {
         "fecha": "2026-11-28",
-        "max": 25.4,
-        "min": 16.7,
-        "lluvia": 82,
-        "codigo": 80
+        "max": 25.5,
+        "min": 17.3,
+        "lluvia": 92,
+        "codigo": 55
+      },
+      {
+        "fecha": "2026-11-29",
+        "max": 25.7,
+        "min": 15,
+        "lluvia": 94,
+        "codigo": 53
       }
     ]
   },
@@ -62,6 +62,22 @@
       "fuente": "Caracol Radio",
       "fecha": "2026-11-23T16:06:26.000Z",
       "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Alquímico: bar cartagenero entre los mejores del mundo por su hospitalidad",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGRjaDVvUzhUVndWUFZ5NnpseUhwQWFDNmtreHprTnBHalNlZ3hNdjNoc3Q3OWxraE9oZUFQQ1pUY0E1SE1zLVY2ekdYQjlCSWVXQi1abUR1eUtXNW9aSnBlXzkxX0xiRGFfNEYzdzFxcERST1duQ2N5Sm9sTE9ZU3JQUkY2a3VTQmY0UkQ2WFUyenpDWlc5dm5RaTVsZlJDejl4ZEpid3E?oc=5",
+      "fuente": "Zona Cero",
+      "fecha": "2026-11-23T00:00:26.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
+      "titulo": "10 destinos para disfrutar del Día de las Velitas en Colombia y encender la esperanza",
+      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN2NIZ2FlVHhWaDJ5UDBZZkhOTWVXdUozSHRnSEZGZUJ1T2lqM09jaEIydWEzYjczeEhxTWtrYTF3SUdEZS1icFYyRFV2SG5IN1hYWDdFVnY3b292ODJyeWtsZE1hTk80eUFpT3VOellBMlR1ZHlKZ3RkenVSRTRZb3k4ZG1QVUN3eVdlQzY2TnVfVEhtVjI2OEsyU0w3a0VvSVNIR1EtNnRkQkdOMjk2Q0Y5U3RNRmJEb0h0UkRTLWVTX00tSXBSNThBZkV5WXYyMTJj?oc=5",
+      "fuente": "Viaja por Colombia",
+      "fecha": "2026-11-20T20:49:29.000Z",
+      "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
@@ -97,27 +113,11 @@
       "idioma": "en"
     },
     {
-      "titulo": "El teatro se une a la solidaridad para reconstruir el hogar de dos adultos mayores en Filandia",
-      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1NoTXEzellJelZBSlk3dDdwYUUwQ3V0Rmlyc0ljUmJkcVVadHZmY05nVTdPVFV2LVRXeU1nTXFDRlgwRGR6SmoxX1NyT2JsbWhxTmkwa21fdHRXa0ZaeVRWaHBoSTBzQlZ5S2MzQUFtM05wVU1LdVdndXFRcV8zdGNLTGZjT29XeHNPM0tlX2RoWmw5cGctcm5nN2NpemhDblFlSU1qS2xoUS05THhzS1R4TzZSamJnMEEtOGRZLUpxbjR0V2xyazNGTUNRZw?oc=5",
-      "fuente": "Crónica del Quindio",
-      "fecha": "2026-11-16T06:02:58.000Z",
-      "tema": "Filandia Quindío",
-      "idioma": "es"
-    },
-    {
       "titulo": "La Gobernación del Tolima y la Gobernación de Caldas restablecieron el pico y placa ambiental en la vía Murillo-Manizales para proteger el Parque Nacional Natural Los Nevados. Conozca los horarios, placas autorizadas y restricciones. 🔗 Encuentre el link",
       "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYU5PMXAycUhOTUFvSDc1QklnR0hqX25SRUJ5UnZKc2ZFd0pmNXlqZUpKcUJWa2hyN05HQUhwVGJUYW51dlFRdFpWRnNRb0dNTGFXWENLV2FoLWJ0dzJ3d09IdG40SjNxX2x4ZE9WZF94MHVSNzNZTDQzVkJhQUxxQ0pqQm5Wb1Z2R1hQcEEzMGtoaUV4UUVpYWgwV3V6aWlOX2FEMDdVb0JkaExGby1aOWFBSWxUbTYtaVZOc1NvNEVwRlU3N2lTbl9aaHBMX3pPbG1SaVpTVlRvT1RPYWlUWUt6eXRuTTlkeERaazQ0SQ?oc=5",
       "fuente": "Facebook",
       "fecha": "2026-11-14T08:00:00.000Z",
       "tema": "Parque Nacional Natural Los Nevados",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Habitantes de municipios del Eje Cafetero comienzan a recibir aprobación para pagar $700 en el peaje Circasia",
-      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYS1XU3RISmdpa05Ibzh2WDJUM3lVd3FFbV83bTdBUDdHeThHbXJfUkJZaFhkSWlnV0xPN29wb0hBRG05MDJqZmQ2bnBBcUFhNkotX3IyMV8yRWkwd1RCQlFHSjBNLW1NcDdoeGZ4TTZoNHA0SFVYNDR0REpBWDhQX0hKd0V3RTJDN2VGYUNXaWNNVjBzdGRPQjNuaEtMU3BZUFBwS1N6Y2hBQVhHZ1RHald5RzdVcXVFXzRLdmpTWlk?oc=5",
-      "fuente": "La Patria",
-      "fecha": "2026-11-11T08:00:00.000Z",
-      "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
@@ -169,6 +169,14 @@
       "idioma": "es"
     },
     {
+      "titulo": "Varios botánicos académicos analizaron ejemplares recolectados junto a guardaparques en bosques húmedos montanos, confirmando rasgos morfológicos particulares que acaban de ser divulgados ante la comunidad internacional dentro de la revista espe",
+      "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNU1vOFY3aVBSUXNHaWZkc054V2o3M1g2MnhFanJkbHUxaUhhY1BVYUt1eENoeWFRZ3FYdy1CdFF4bjA0R1J5S2xsNTF5aG84NVZhWlVoaEo1QUpnRVdPanBJYnRzcEZlT1hwcjRtTzdvZ3g1M3JyM3AtMkk3Z2NCLWVqZmN0M0hDdmloLUZtWXdJOTFvbFdKb0RBMVRQNDY0X3NDeVVtRjdIam90NVA3dHRzeEdzbVExaGVBelpxYm5ZTFVvUVJxaGpRLW5PdEVQdFRKRDhXSjB6anpiX3RCd3EyR0x1bHB0dmlR?oc=5",
+      "fuente": "Facebook",
+      "fecha": "2026-11-05T08:00:00.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
       "titulo": "Parece sacado de Disney: así es el mirador colombiano inspirado en Encanto",
       "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPelkxcXZNNFF6NlhBS2llVGhCOF92ZGpSTTNwdV9lYzFad0E4ZHlCeG1qVE90emY5NFYwWXJIaVpsTmZQZld4aFhyeE1BWHBNZUVvYmIzN2t5azVJS2VacW5zbzlPaUpZcHJKYVdUdW85SU1lMlJWaVRVTW5LZGdnalE1UVFmS3NaZlE5NzhZeHR5b0NPeHlxZGo1emZ2WWJ5aXhuMDh3aW9GS3ZjSkhmdHNhME9HUXRYOWZ4RFNB?oc=5",
       "fuente": "Revista Semana",
@@ -182,14 +190,6 @@
       "fuente": "Dosquebradas",
       "fecha": "2026-11-02T08:00:00.000Z",
       "tema": "turismo Eje Cafetero",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Encanto, película de Disney basada en Colombia, regresa a cines por una noble causa",
-      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQckpBVDhEMjNGWUJxZ09IMEtTcnZyMTRkNHlyczVoOUdEZHM3X0JmM0N6YW1DZTBSd0prQXFjU0RUak83R1ZoZEVNQ0JRSURPbmN3SEtJU2pvWHdJTmZodzB6ZUlMOHN0OEpST1M4VjZMcldGMG0zX240Q3lyVVdoVnVjQklwUlFnblFlSkx4Yl85TG1lTkZyeHNId0hTV19KVjJQTEhHTnEydlEwemF3SmdjRmxxNDBsdjBxLWRwNjNHR0hWYjZCMmlFbENKVFU?oc=5",
-      "fuente": "Revista Semana",
-      "fecha": "2026-10-30T07:00:00.000Z",
-      "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
