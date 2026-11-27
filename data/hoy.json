@@ -1,41 +1,41 @@
 {
-  "actualizado": "2026-11-26T19:20:41-05:00",
+  "actualizado": "2026-11-27T03:55:51-05:00",
   "clima": {
     "ahora": {
-      "temp": 21,
-      "humedad": 89,
-      "lluvia": 0.1,
-      "codigo": 51,
-      "viento": 0.7
+      "temp": 18.4,
+      "humedad": 95,
+      "lluvia": 0.3,
+      "codigo": 55,
+      "viento": 2.7
     },
     "dias": [
       {
-        "fecha": "2026-11-26",
-        "max": 27.1,
-        "min": 16.8,
-        "lluvia": 92,
-        "codigo": 53
-      },
-      {
         "fecha": "2026-11-27",
-        "max": 23,
-        "min": 17.3,
+        "max": 22.4,
+        "min": 17.7,
         "lluvia": 98,
         "codigo": 95
       },
       {
         "fecha": "2026-11-28",
-        "max": 25.3,
-        "min": 17.3,
-        "lluvia": 89,
-        "codigo": 55
+        "max": 26.5,
+        "min": 17.2,
+        "lluvia": 78,
+        "codigo": 80
       },
       {
         "fecha": "2026-11-29",
-        "max": 25.5,
-        "min": 17.1,
-        "lluvia": 100,
-        "codigo": 81
+        "max": 26,
+        "min": 15.9,
+        "lluvia": 97,
+        "codigo": 55
+      },
+      {
+        "fecha": "2026-11-30",
+        "max": 22.2,
+        "min": 16.9,
+        "lluvia": 97,
+        "codigo": 53
       }
     ]
   },
@@ -81,6 +81,14 @@
       "idioma": "es"
     },
     {
+      "titulo": "El agua que baja de los nevados",
+      "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUERSZGV3YTRkdDJtbE1CM0NYUS1Vc0lrdkRoOV9mdlg4Vk0yNDAxZW1jd1hfVkh2T2NDMUkySkZ4ZzRUaTRHdzFLdjBaSl9NSHRiNnRJa2Z5LTdDdDcxLUd5LXRnLTBuc0hWbVJ4Q2VMRlpTV0JXVGdaN3ZKV2R5NlRMQU9UZHRRZmhQZ0V1d3pNLU5X?oc=5",
+      "fuente": "El Colombiano",
+      "fecha": "2026-11-21T14:40:28.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
       "titulo": "Cali recibió por primera vez a la Junta Directiva Nacional de Anato y fortalece alianza turística con el Eje Cafetero",
       "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQR0FDbXRpc2lmZURTUkpLc2lNVVB0cGRhTmtJRU9QRVFmcWl6cnZ6N3FZTG0zeHpvaDBpU09BWlZ1c2p1ZWJtN2VnZGFBdjBZSFFsemwwMm1pcVdPeHRYaDZkbkFfUjZmcFkwREFmS095bEFnclNrZmEtWFQ1SkItLVlaUUowcS1OT1hDYXUzaFFLZFZzRGxLNWdvQmdCZGJ5Ym1IQXAyQlRIZ00zMXNqV0lIU1FkY1M3Vk94YVRDQ3FYZU41TVY2S2x4UmZrRUlJdGtGTklQSXRjNUpqUDJ6TjRYZDJnU1dmc3FWVS1PNWJlbW1TVXV2a19oWWJkSnh3a2FN?oc=5",
       "fuente": "Alcaldía de Santiago de Cali",
@@ -121,10 +129,10 @@
       "idioma": "es"
     },
     {
-      "titulo": "Campesinos del Quindío llevarán sus saberes y propuestas al mundo digital",
-      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3o2QldqNXNQN2ZFdmlrZ2ZEeUtLYjdGeFRzeW9sMzVwaXJPZ0xpclJqeWhTdmhmTUtldllSRjR1dW52enNuRzFUWEQ1alFQaS1tWWFtS3UzSkdlcGY5R3RLcHBYaUpuN18ta3pqNGxXdXhLa2JjNXRqRThoUG9kcm1TREZaTzFjZkY3UXFaYktjWmo4LVVUTVpiQzRFR1EyS3Z4aGRKMDB6QQ?oc=5",
-      "fuente": "Crónica del Quindio",
-      "fecha": "2026-11-13T17:02:06.000Z",
+      "titulo": "Habitantes de municipios del Eje Cafetero comienzan a recibir aprobación para pagar $700 en el peaje Circasia",
+      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYS1XU3RISmdpa05Ibzh2WDJUM3lVd3FFbV83bTdBUDdHeThHbXJfUkJZaFhkSWlnV0xPN29wb0hBRG05MDJqZmQ2bnBBcUFhNkotX3IyMV8yRWkwd1RCQlFHSjBNLW1NcDdoeGZ4TTZoNHA0SFVYNDR0REpBWDhQX0hKd0V3RTJDN2VGYUNXaWNNVjBzdGRPQjNuaEtMU3BZUFBwS1N6Y2hBQVhHZ1RHald5RzdVcXVFXzRLdmpTWlk?oc=5",
+      "fuente": "La Patria",
+      "fecha": "2026-11-11T08:00:00.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
@@ -145,27 +153,11 @@
       "idioma": "es"
     },
     {
-      "titulo": "Parques Nacionales Naturales llevará la biodiversidad de Colombia a Bogotá: estas serán las actividades por sus 66 años",
-      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXllY1YxM2laNldLdkFlYzdCY1dvSVFSeWJDbjVkbGU4MWVSVWV4SkR0RkIxT2R0SXMxdHdXX2w1bU16VmI0UmdJb202Skk0S2U2bDB3SVhPVG5KX2dsQ3M3VG9ma1BVTXZ2alVHeFlFMkhZQ08xZXNaUGdjc2ZUOWNkanBiM0ZTNWJIUEJhYTRoMUQzMnRXVnlHUUNDeUhpUEtBY2EwWXI3ZVRRZFBFY2JZMWxoaFVndEcxcVBzcTNBWFN30gHEAUFVX3lxTFBYVEk5amFmcXpaU2dIMkZrMjVvTktKRmIwZmJ1X2lKTGlkeFBFdGZ1YlBiRnNzNzYzeGxXZUVSc2Zudld3ajNUSlMtXzdMX3hZRUVSVGJMZU45TmJKRGdxcGsyWjZIdlh5QWkweXJJWHpOZHNjRDA4NVVPNW1HQXhtdnRKelZhbk85ancyaGFHZVJaNk1KbkNTRHI5Mlk3NkNmN1c1SjNCM0Z5Ny1wVmE1cnRvQ1haSGZ5VzRKRTh4eEZGdnk?oc=5",
-      "fuente": "La FM",
-      "fecha": "2026-11-08T08:00:00.000Z",
-      "tema": "Parque Nacional Natural Los Nevados",
-      "idioma": "es"
-    },
-    {
       "titulo": "MinComercio e iNNpulsa articulan acciones para acelerar la reactivación económica del Eje Cafetero y Antioquia",
       "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTENURE1qRUszY1NPcHN2TEhQREJhVDFDT2Y1Q2xORlV3MjJaS3NSYWRDdENZcHJDTWU1NUFTOERibTBvcl9qRGlpcVN6SDlwb0VEdmFNTHFqRU9HVzJ4YkxDcUxtRU1xN0dJRFBxUjI0b1pTMVlqZTZvdU5nM1BwY0wxWm15UGQtTXlfZjI0VzZwU2N1am5UTldIaXUtQkFzODZsU1BXSXNHWG9hNkVUTThSVFVoUkVSUWJBV1ZaNlNMX1I0RGJFM1RWdEZXQURtSjhreXpLYlhUNjlucmllcEdFUko4SGta?oc=5",
       "fuente": "Innpulsa",
       "fecha": "2026-11-06T22:44:49.000Z",
       "tema": "turismo Eje Cafetero",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Instalan siete nuevos gimnasios biosaludables en seis municipios del Quindío",
-      "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY1ZjWHhVc0tZTlJzOEJEcDAwNFBOM0o1MzhSOU1GdG5NN185TGRjS1JXSVpfdE51VFd3UFBPWDdSa3JQLVJvU2VzM3EtREVDcF83Yi11dmw4Wi1fZWpMTVdUSUZULWRyQzFDNng5WUtnRXVrM1lzTHlQam9Wd3pIalVZSV93YUxNclQ5b2Z6Y2tHNks0V3FxTmZSREQ1dmVEbFlrZThTcXhaLWNQMWdEU2VsTHBNUQ?oc=5",
-      "fuente": "Crónica del Quindio",
-      "fecha": "2026-11-06T08:00:00.000Z",
-      "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
@@ -177,10 +169,10 @@
       "idioma": "es"
     },
     {
-      "titulo": "una semana para celebrar 66 años de protección de la biodiversidad",
-      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2NROVRQMkhwdGNYWFpZelk1YjNDVEJSUEt4c2JROGs4d0ZUMXJUc19lZTdybHJYVkxTTjZCdHFiZnp0WEN0OEl0alFTZHFIUG9JMlotMnl6OUpxZnROaXZPa0lNTWM1eU9UaXFhNXd5bDQ2WVRkbjFpRzlia1Bzd21MY3ZBNzdTb2hWdXJKV0cwT1FUYmxWWmpmZ3MxU0FvWXhoQzl2QVk5Yy1lWGxKczRZYzc2MmNVMjFJZA?oc=5",
-      "fuente": "Parques Nacionales Naturales de Colombia",
-      "fecha": "2026-11-06T08:00:00.000Z",
+      "titulo": "Bomberos Oficiales de Manizales se capacitan en Soporte Vital Internacional de Trauma con énfasis en alta montaña",
+      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOc1RhZFhiUzVzOTFaTTRXdTg3VXVpZ3VTeVVNMmF0WTJhdUpTUHkwdktyb1pwakd0bTM4VGFLUjJ4NGlSeXZ1d0I0bXpIR0tTVnhFTExfNFZZTWc2anZaZ2tOclc5dGlGOU9icC0zMDM2cWZJWk1EOHZpV0EzWXpRRUpXdXBMMkhCZG1fcHNMQ05nYUFkMC1jWm0tR1hUdndqcjVob0w1TWJodldIbG5qY2dZTjVfTUpjR1d4Wjl2cTNjQTJpNF93eUh2TzFRUFc4VkFoSVNuV2lYQlRHOGlubVJfa3AtYjlDc21pMDE0UXI?oc=5",
+      "fuente": "Centro de Información – Alcaldía de Manizales",
+      "fecha": "2026-11-03T08:00:00.000Z",
       "tema": "Parque Nacional Natural Los Nevados",
       "idioma": "es"
     },
@@ -190,6 +182,14 @@
       "fuente": "Dosquebradas",
       "fecha": "2026-11-02T08:00:00.000Z",
       "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Encanto, película de Disney basada en Colombia, regresa a cines por una noble causa",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQckpBVDhEMjNGWUJxZ09IMEtTcnZyMTRkNHlyczVoOUdEZHM3X0JmM0N6YW1DZTBSd0prQXFjU0RUak83R1ZoZEVNQ0JRSURPbmN3SEtJU2pvWHdJTmZodzB6ZUlMOHN0OEpST1M4VjZMcldGMG0zX240Q3lyVVdoVnVjQklwUlFnblFlSkx4Yl85TG1lTkZyeHNId0hTV19KVjJQTEhHTnEydlEwemF3SmdjRmxxNDBsdjBxLWRwNjNHR0hWYjZCMmlFbENKVFU?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-30T07:00:00.000Z",
+      "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
