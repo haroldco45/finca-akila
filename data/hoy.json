@@ -1,58 +1,66 @@
 {
-  "actualizado": "2026-11-27T20:47:37-05:00",
+  "actualizado": "2026-11-28T04:52:32-05:00",
   "clima": {
     "ahora": {
-      "temp": 18,
-      "humedad": 94,
+      "temp": 17.9,
+      "humedad": 89,
       "lluvia": 0,
-      "codigo": 3,
-      "viento": 1.8
+      "codigo": 0,
+      "viento": 0.6
     },
     "dias": [
       {
-        "fecha": "2026-11-27",
-        "max": 24.4,
-        "min": 17.9,
+        "fecha": "2026-11-28",
+        "max": 26.5,
+        "min": 17.6,
+        "lluvia": 49,
+        "codigo": 55
+      },
+      {
+        "fecha": "2026-11-29",
+        "max": 25.8,
+        "min": 15.2,
+        "lluvia": 100,
+        "codigo": 53
+      },
+      {
+        "fecha": "2026-11-30",
+        "max": 24.9,
+        "min": 17,
         "lluvia": 98,
         "codigo": 80
       },
       {
-        "fecha": "2026-11-28",
-        "max": 26.6,
-        "min": 16.6,
-        "lluvia": 90,
-        "codigo": 51
-      },
-      {
-        "fecha": "2026-11-29",
-        "max": 26.7,
-        "min": 15.4,
-        "lluvia": 94,
-        "codigo": 80
-      },
-      {
-        "fecha": "2026-11-30",
-        "max": 24.2,
-        "min": 17,
+        "fecha": "2026-12-01",
+        "max": 22.3,
+        "min": 16.8,
         "lluvia": 95,
-        "codigo": 80
+        "codigo": 81
       }
     ]
   },
   "noticias": [
     {
-      "titulo": "El Hospital Mental de Filandia se consolida como centro de referencia en salud mental y atención post-sismo del Quindío",
-      "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdWRnZG1rNGtmTnl6b1hkRlRwMmwyRVBpQUhFSlBqMG1iN19XQThFUnR2TU0yVm9aMXpJUVNWa0NncndRZFJ0UEZUWjZGcnRYMGJZdHU0NjlVNHBNQTlydWtNRlREcWNRMUNKdW5TWEp5WE1fYWdKTVd4OXdmblh6N0kwOWZhZmRyQ2REdm1oUHc0UTRQaTRoVndRNEdkOUxkdm5SMTJOUVZpZmI4clUwMXVJR05LdGpmbXR3UFNlTWlRSjIwUEpPOFdXMUl2Q0ZhOHNyZVhQUjZGcmhIaVVkQWFYLW1LYzQyc3prcTlDWQ?oc=5",
+      "titulo": "No queda en el Eje Cafetero: el pueblo de Cundinamarca que se destaca por su producción de café",
+      "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVkZMdUNXbngxc3pkRnN0Y1RxekpHa2ozNS1vNTdKSk9WN3lQTy1YUnluR0RpQzRjalI2alpuaHBia25ITXZQSzUxODZtYWJBMF9vX2NJd0JVZ0s5aUkyR0FpS0hiR1RtdU8tMVdvN1pCR2JUTVl4c0lPTmVYUzBMWE1oT1VZbDNFS1p1QTA2QU9sVEptS1I4blNueGJRbms5clE2MlA5LU4xY2M2MzRNUHhwR0ZmejVNUE9LQ0NzdmlZdi1oTnRTWUZPdUM0dGxtU2VEUGJCeVk2QQ?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-11-27T21:32:20.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "CRQ suspende tala y aprovechamiento de guadua sin permisos en Filandia",
+      "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWU9lWnZEUFU0VTNDY1hWb1g4RmZGWEVuc2lsUXd3ODQ3UGpCRi1XT2ZBZmJPSTh5OWV4SjU3dHBVSEY5N0lKQ204TURuWUVxVUg3dUdpWHk3NURaSmJpMlppaXhUWHNERFJDVl9SVlVaZ25Oa1FVbXJPR2FoNkZYT28tSTY5bThmbkJXSExBQnZsYzhrZ3k4b0VteG5JUVA5Nk1lVW45T3N3Sk5vQUE?oc=5",
       "fuente": "Crónica del Quindio",
-      "fecha": "2026-11-26T05:02:46.000Z",
+      "fecha": "2026-11-26T18:28:31.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
-      "titulo": "Alquímico: bar cartagenero entre los mejores del mundo por su hospitalidad",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGRjaDVvUzhUVndWUFZ5NnpseUhwQWFDNmtreHprTnBHalNlZ3hNdjNoc3Q3OWxraE9oZUFQQ1pUY0E1SE1zLVY2ekdYQjlCSWVXQi1abUR1eUtXNW9aSnBlXzkxX0xiRGFfNEYzdzFxcERST1duQ2N5Sm9sTE9ZU3JQUkY2a3VTQmY0UkQ2WFUyenpDWlc5dm5RaTVsZlJDejl4ZEpid3E?oc=5",
-      "fuente": "Zona Cero",
-      "fecha": "2026-11-26T04:45:05.000Z",
+      "titulo": "El Hospital Mental de Filandia se consolida como centro de referencia en salud mental y atención post-sismo del Quindío",
+      "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdWRnZG1rNGtmTnl6b1hkRlRwMmwyRVBpQUhFSlBqMG1iN19XQThFUnR2TU0yVm9aMXpJUVNWa0NncndRZFJ0UEZUWjZGcnRYMGJZdHU0NjlVNHBNQTlydWtNRlREcWNRMUNKdW5TWEp5WE1fYWdKTVd4OXdmblh6N0kwOWZhZmRyQ2REdm1oUHc0UTRQaTRoVndRNEdkOUxkdm5SMTJOUVZpZmI4clUwMXVJR05LdGpmbXR3UFNlTWlRSjIwUEpPOFdXMUl2Q0ZhOHNyZVhQUjZGcmhIaVVkQWFYLW1LYzQyc3prcTlDWQ?oc=5",
+      "fuente": "Crónica del Quindio",
+      "fecha": "2026-11-26T05:02:46.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
@@ -108,7 +116,7 @@
       "titulo": "Instalan sensores inteligentes en fincas de Filandia para mejorar productividad",
       "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ3Qzc251SkNYRC1UcGV6bUgwbjFPbEktaXBleFVQa0dkejc1Sm9qbmYzeEhPWnZNcmM2RUxNcktBTTltbHB6bTF3cHZQM0o4VGlUVzB6U3E0R1JQU2pCSkotV0xBdkdYSnFGZDJZSTcyT0lzWm1uc1pTVEFCZnotQUxjaVBBdDY2cDZfMjNiRm0yQVpZcE9xUG9qVVc5VlpwZXY0Z2NmbDU5Y0NQYTgyUXpvSkc0U3dmN2c?oc=5",
       "fuente": "Crónica del Quindio",
-      "fecha": "2026-11-17T16:59:25.000Z",
+      "fecha": "2026-11-17T08:00:00.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
@@ -129,18 +137,18 @@
       "idioma": "es"
     },
     {
-      "titulo": "A dónde viajar durante el puente festivo del 14 al 16 de noviembre",
-      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVWVnVUpnLVUwcW1QTDFvLUFSbjRsVm5ZNHBSUFhld29PandNWWhuM2tXRnVlUTYzZGc1VXc0MUpiaVhscXZlT0dUclFLSDQ4WnY3U2xhRkE4WkZHVTlQcFFqcFhraGlsWEQyV3ZrNmZFREs5aEZMQksyeC1qVWp2TEpxclFQbjY1al9pQzNhTFBRcXR3VTlRa0hNUEdYaEM5OXFUTUlzeXZrNGY4d0hSb0JWdEJ5MjJXb0E?oc=5",
-      "fuente": "Viaja por Colombia",
-      "fecha": "2026-11-11T15:31:38.000Z",
+      "titulo": "Campesinos del Quindío llevarán sus saberes y propuestas al mundo digital",
+      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3o2QldqNXNQN2ZFdmlrZ2ZEeUtLYjdGeFRzeW9sMzVwaXJPZ0xpclJqeWhTdmhmTUtldllSRjR1dW52enNuRzFUWEQ1alFQaS1tWWFtS3UzSkdlcGY5R3RLcHBYaUpuN18ta3pqNGxXdXhLa2JjNXRqRThoUG9kcm1TREZaTzFjZkY3UXFaYktjWmo4LVVUTVpiQzRFR1EyS3Z4aGRKMDB6QQ?oc=5",
+      "fuente": "Crónica del Quindio",
+      "fecha": "2026-11-13T17:02:06.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
-      "titulo": "Lunes 9 de noviembre, las noticias más importantes de Armenia y Quindío",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTRzYjVnRWlSM0FEdHRHbWhZUUJWVWduM0xjMjNmcFM2djhuLXcyT2x1d1k3bFpmZmoyaldxblRmN01Nd2ZVaVFZSUt2dkIwYXFkZm5LQWx0NnE5NlpTc1RMdTRvb0szOXd6eVFpalhFN2hrZDdCWTBwdGVVQnVJZHVSNHg1akJ6QmtRUUF0bTIwYXktckdfNXFjY2tUU2JHZHlQbmxoMETSAbwBQVVfeXFMUE0tNTl5UDVJamhmb0VjYVpiRHFubUR0TVNFWkRsOVFodDcwUS12RWVVZGQ1TzJoV3dEWDdTTVgxQUR3aUllY2t5UTRXSlU2T2QweXQ0Y2JSTlZUMUhNdVpVVlJIUFppVWFsY1FjQXo4TFY1NVlpN2ZYLVNzdjBfUTBYcGVXTzBUVjBiVmNxT0dzZk50UmZMYy11ZV9ldUJ4WTFPNk9ueDZHTC15YlBPT2pKOVpMR0d1dG9HTHI?oc=5",
-      "fuente": "Caracol Radio",
-      "fecha": "2026-11-09T08:00:00.000Z",
+      "titulo": "Habitantes de municipios del Eje Cafetero comienzan a recibir aprobación para pagar $700 en el peaje Circasia",
+      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYS1XU3RISmdpa05Ibzh2WDJUM3lVd3FFbV83bTdBUDdHeThHbXJfUkJZaFhkSWlnV0xPN29wb0hBRG05MDJqZmQ2bnBBcUFhNkotX3IyMV8yRWkwd1RCQlFHSjBNLW1NcDdoeGZ4TTZoNHA0SFVYNDR0REpBWDhQX0hKd0V3RTJDN2VGYUNXaWNNVjBzdGRPQjNuaEtMU3BZUFBwS1N6Y2hBQVhHZ1RHald5RzdVcXVFXzRLdmpTWlk?oc=5",
+      "fuente": "La Patria",
+      "fecha": "2026-11-11T08:00:00.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
@@ -201,6 +209,14 @@
       "idioma": "es"
     },
     {
+      "titulo": "Dosquebradas recibió la Media Maratón del Café como protagonista del turismo deportivo",
+      "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPblJ5UUxjM1NRVnNkUTRMbnIySU80TzhSTk8wOHlsN3RBeXNWaS1uNVdjRW03NkhJNFFWOVIwd0FDSDBoRG1XZkZRNS1BU1ZoQ19LRlUwRkdHZ2RXbXEwN0lxRGtYZ2M2NmhLcVhmWk5MaDFqbGZVSVNKSE5iXzdKX2Jfc0VPZUFKTXp0cWRWeFdDN3gyWDEzWE1xY1ZMNXY4ZVdkZUYtTFp1bE8yVGNuNXplUGVRLVdEdUtib056ekxueWdDU1pDQjVpdHEzTDBWNGQwRGpfalFGTEtJWUxSSVBVbzFHQjRiR0J0WTZHY0RXcHRRVTdZaGRHZzR1WmxWOHQ1SFIyWUZLN0JwRF9OdVA2N0J2b3RsRHc?oc=5",
+      "fuente": "Dosquebradas",
+      "fecha": "2026-11-02T08:00:00.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
       "titulo": "El corredor Murillo-Manizales tendrá pico y placa ambiental: así funcionará la medida",
       "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMXU0U3FWRmxURFhmQm5OV3NRelB4bWEwWkVVVzBUa1VwZ2pzMk5WLUVxaEo5Nk1aSE5YM0JicjhQLTFOckRRdlZEWG5CSTBua0U2V3EzdHk3Rkk4Y3BNTy1iUFhtQndUX0hzVFhKek5IdU5YLUM3V3gwblpzd0RhTjFMSkp0LW9ENllkVjUzZXlWcE1zQlNjZU5lZllqUHh3UVlXMTBuQUh1ODBtbTg2Y2d5NmJEeVRmc1F1ZjhkOUp4c0R6MGhPSNIB4wFBVV95cUxQMXRjY2NOUGtPMTJZc3FUdUd1T3M0UmpfSjRydUZOMHlIeWtCelJKY0JmNnlDc3lQaG5MdzFySkM5VXpzLUtVTFJwa2dqMzJmblZLYk1JUnN6d0pIYndRU19nMVl1THktVVJTemMwcDkwTEpQSFItcEx1SzJjN1BUOTJkV2FXdnl4dmJfX0tsQU5PVGJOWUluYW92MWpnVkNZMUZnZ1dqeGdubU16SEdyMUNqUnV1dzQxY0ZIX3U4NVBucGZkNk1qekF5ZEptbzdMd3hGSVZ6MU1nSHJYWmpGNmdzOA?oc=5",
       "fuente": "Infobae",
@@ -214,22 +230,6 @@
       "fuente": "La Patria",
       "fecha": "2026-10-30T07:00:00.000Z",
       "tema": "Parque Nacional Natural Los Nevados",
-      "idioma": "es"
-    },
-    {
-      "titulo": "El municipio del Eje Cafetero que es considerado un ‘mirador estrella’, un destino ideal para el descanso",
-      "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTElQUGxiRTU5blFuajd3bF92anBYZ2tNU2pvdk9JU1ZXVEU1RWJaZk9jZlprZ2JxUDlBanpiUmdpaUZJVlFXRVNWaENwNHhsQ1duYy1FNTh1aF9qQTg5Rm1odEV1R05hQ2dfYXBIQS1oVkcxY2M4VmRncDFoeURaOWZGVUtxa1JhYTVuZXBuREV5WVlXZTBnaG9kWVdpSzROaXlwSURSV01yNFdiR01SeHhjNE1pdlZHb29zUDUtN0hRSlZKanZtUUdNcjFGY21fNDQ0RU9CNkFmV2VfRThUZEExQTY?oc=5",
-      "fuente": "Revista Semana",
-      "fecha": "2026-10-29T07:00:00.000Z",
-      "tema": "turismo Eje Cafetero",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Café, montañas y aventura: cuatro planes para redescubrir el Eje Cafetero",
-      "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaXhGVTNsZjdaYlNacThKVWtSMlVMV3BDWEJ2c1loMlNHTk10RGFHVU5tVjc5M3FEX3JVeTlCZVBBX0hrZXMxVm1laWFwbGhKcW9mYXZ6UG9TVUtSQXFuRHU4ZV9UREdVbEJVWTZkMXl1SWx1SkJZbEhZNVBRUDZUT3pfLVhNaFU5NEI3djJaS3Q0dDhiM2dJdmFiSmQtMk9IcVpqbWkxd2xndHVjYXc?oc=5",
-      "fuente": "La Patria",
-      "fecha": "2026-10-29T07:00:00.000Z",
-      "tema": "turismo Eje Cafetero",
       "idioma": "es"
     }
   ]
