@@ -1,39 +1,39 @@
 {
-  "actualizado": "2026-11-28T04:52:32-05:00",
+  "actualizado": "2026-11-28T12:58:42-05:00",
   "clima": {
     "ahora": {
-      "temp": 17.9,
-      "humedad": 89,
+      "temp": 26.8,
+      "humedad": 50,
       "lluvia": 0,
       "codigo": 0,
-      "viento": 0.6
+      "viento": 7
     },
     "dias": [
       {
         "fecha": "2026-11-28",
-        "max": 26.5,
-        "min": 17.6,
-        "lluvia": 49,
-        "codigo": 55
+        "max": 27,
+        "min": 17.5,
+        "lluvia": 82,
+        "codigo": 53
       },
       {
         "fecha": "2026-11-29",
-        "max": 25.8,
-        "min": 15.2,
+        "max": 26.3,
+        "min": 17.8,
         "lluvia": 100,
         "codigo": 53
       },
       {
         "fecha": "2026-11-30",
-        "max": 24.9,
-        "min": 17,
-        "lluvia": 98,
-        "codigo": 80
+        "max": 24.6,
+        "min": 17.6,
+        "lluvia": 96,
+        "codigo": 81
       },
       {
         "fecha": "2026-12-01",
-        "max": 22.3,
-        "min": 16.8,
+        "max": 23.1,
+        "min": 17.2,
         "lluvia": 95,
         "codigo": 81
       }
@@ -41,19 +41,27 @@
   },
   "noticias": [
     {
+      "titulo": "#LoMásVisto | Las exigencias judiciales que prohíben el consumo de licor y obligan a practicar pruebas de alcoholemia a todos los jinetes llevaron a los organizadores a cancelar uno de los eventos más multitudinarios de la Feria de Manizales. La decisión también compromete la atención de más de 180 niños. 🔗 Encuentre el link de la noticia en el primer comentario 🗞️",
+      "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObWlKTTJZX2EtMkI3Tk9xN01fZy1YcEZYcDJRSXZ3VVN1ZVZmTXA0RENvaDR5UnR4aHg5ODVJOGlXQWF4R0N6OGpUSEg3S1lQbXZHb2FSbmphM2hybTdQeTVWajIyMEpNcHZnSXM2aGxaSTlhOXVyeW1JLWxVX0F5b2JPOWM2TTJDbXF5bUhjZ3R4QTdreEFZUHJrUEhtR2tBUWJKZUx0bGgzSTNkWnQ0TDVKVWNzR2ZrQXI4bnFDNUJLZ0RPaXFzVVF6Vkk5T3dWVmpDY2Z2SkVQVUdadVJxNUZkVVFXMDlIQ1VxTGhn?oc=5",
+      "fuente": "Facebook",
+      "fecha": "2026-11-28T17:41:38.000Z",
+      "tema": "cabalgata Quindío OR cabalgatas Eje Cafetero",
+      "idioma": "es"
+    },
+    {
+      "titulo": "Argos dona 12 toneladas de cemento a Manizales Comparte para reparar viviendas afectadas por el sismo",
+      "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOW1LY2NZbTJmT013VDBEUFdvZ2JRVjhlc3JoU1BVbEZqQXlmNXlQTkgzTDRmMW9WSmYzbTNkLVRfZUplTUhJV3ZaSTQxZFliVjZkQnA2QlVvNWhZelVlTGJ1c3VndVhhbFZLN1A4ZEdrM2xWaDR6Q3RJUDdva1lIZy1aMzZCNVNEbDFzc3VYRWRKeU44Ung3MG5ya3BrSVJ1ajl2SkZsMHNrTG1ud1E5MjBVT0FmcTZvSjR1QVlmWFFLWWdzSTNxUVZHemk?oc=5",
+      "fuente": "BC Noticias Manizales",
+      "fecha": "2026-11-28T15:52:34.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
       "titulo": "No queda en el Eje Cafetero: el pueblo de Cundinamarca que se destaca por su producción de café",
       "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVkZMdUNXbngxc3pkRnN0Y1RxekpHa2ozNS1vNTdKSk9WN3lQTy1YUnluR0RpQzRjalI2alpuaHBia25ITXZQSzUxODZtYWJBMF9vX2NJd0JVZ0s5aUkyR0FpS0hiR1RtdU8tMVdvN1pCR2JUTVl4c0lPTmVYUzBMWE1oT1VZbDNFS1p1QTA2QU9sVEptS1I4blNueGJRbms5clE2MlA5LU4xY2M2MzRNUHhwR0ZmejVNUE9LQ0NzdmlZdi1oTnRTWUZPdUM0dGxtU2VEUGJCeVk2QQ?oc=5",
       "fuente": "Revista Semana",
       "fecha": "2026-11-27T21:32:20.000Z",
       "tema": "turismo Eje Cafetero",
-      "idioma": "es"
-    },
-    {
-      "titulo": "CRQ suspende tala y aprovechamiento de guadua sin permisos en Filandia",
-      "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWU9lWnZEUFU0VTNDY1hWb1g4RmZGWEVuc2lsUXd3ODQ3UGpCRi1XT2ZBZmJPSTh5OWV4SjU3dHBVSEY5N0lKQ204TURuWUVxVUg3dUdpWHk3NURaSmJpMlppaXhUWHNERFJDVl9SVlVaZ25Oa1FVbXJPR2FoNkZYT28tSTY5bThmbkJXSExBQnZsYzhrZ3k4b0VteG5JUVA5Nk1lVW45T3N3Sk5vQUE?oc=5",
-      "fuente": "Crónica del Quindio",
-      "fecha": "2026-11-26T18:28:31.000Z",
-      "tema": "Filandia Quindío",
       "idioma": "es"
     },
     {
@@ -65,8 +73,16 @@
       "idioma": "es"
     },
     {
+      "titulo": "Alquímico: bar cartagenero entre los mejores del mundo por su hospitalidad",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGRjaDVvUzhUVndWUFZ5NnpseUhwQWFDNmtreHprTnBHalNlZ3hNdjNoc3Q3OWxraE9oZUFQQ1pUY0E1SE1zLVY2ekdYQjlCSWVXQi1abUR1eUtXNW9aSnBlXzkxX0xiRGFfNEYzdzFxcERST1duQ2N5Sm9sTE9ZU3JQUkY2a3VTQmY0UkQ2WFUyenpDWlc5dm5RaTVsZlJDejl4ZEpid3E?oc=5",
+      "fuente": "Zona Cero",
+      "fecha": "2026-11-26T04:45:05.000Z",
+      "tema": "Filandia Quindío",
+      "idioma": "es"
+    },
+    {
       "titulo": "El Parque Nacional Natural Los Nevados inició su último cierre temporal del año: el sector Norte continúa abierto al ecoturismo",
-      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSTJVdUNaakE4dTJySFl1X3VOWHNHMG9KZllOejNKekhja1VOTEdLU21BZzF3am5jWmdxWXR5bGV0Wmd0VllBMlFCdUpnWmpSNjJkMzVVQ0Zpb0Y5bDBiUWd3cHM1cmRaa2dacDNwY1dEYkg1OWFNcUljOUhPa2l0eEg5SW91eXRwTld6N0RrOENlNXZ2R2MzZzlXVGxncUlUYnBURjZQR1BfckU?oc=5",
+      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEdWTExoZUJNTmpOS2FGeFB6cUlXNDdra2FaZjJadkp2X1o2dWlJZXl2QjF2NVczaHdJWlZFejNCbWlGemU5YUFSLWFMZi1aeEo3dFpPNnU2MUk4NEMzdEh1bXQwWm1jWUNHdnh3SmYyREpqUHp1X29WZTNFMTJTVEhUU2ZDWlI1a0NKY2Y4am5PVWJmZHkyeGM4ell6N1dlTEZSQ2tqNEYwdw?oc=5",
       "fuente": "Parques Nacionales Naturales de Colombia",
       "fecha": "2026-11-24T23:56:10.000Z",
       "tema": "Parque Nacional Natural Los Nevados",
@@ -97,10 +113,18 @@
       "idioma": "es"
     },
     {
+      "titulo": "Vía Manizales - Murillo: pico y placa para este fin de semana, 21 y 22 de noviembre del 2026",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWXU1YmQ0WGQzNWstT3hSVkJPWjU2cl9CY1l0MmZ4enN3b1hGNnNNQ0s0eUVuTDM0bVIwU2JhMlpYYWR5cjdjd0NJemoxVk16dWlkUjlXQ3JHOHRFdFBjdHd1dVRTM01VMFJ2Ui1oNHgxdE9XVEo4ak4tTmZzU1pXUUhmbGRIby1ScmlBNXM0MUMtc3VmYkhQcUw5eldGUmpJakRkWGtFLTJKVmM3Y0NxUVpIa3RsbEk?oc=5",
+      "fuente": "La Patria",
+      "fecha": "2026-11-20T08:00:00.000Z",
+      "tema": "Parque Nacional Natural Los Nevados",
+      "idioma": "es"
+    },
+    {
       "titulo": "Cali recibió por primera vez a la Junta Directiva Nacional de Anato y fortalece alianza turística con el Eje Cafetero",
       "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQR0FDbXRpc2lmZURTUkpLc2lNVVB0cGRhTmtJRU9QRVFmcWl6cnZ6N3FZTG0zeHpvaDBpU09BWlZ1c2p1ZWJtN2VnZGFBdjBZSFFsemwwMm1pcVdPeHRYaDZkbkFfUjZmcFkwREFmS095bEFnclNrZmEtWFQ1SkItLVlaUUowcS1OT1hDYXUzaFFLZFZzRGxLNWdvQmdCZGJ5Ym1IQXAyQlRIZ00zMXNqV0lIU1FkY1M3Vk94YVRDQ3FYZU41TVY2S2x4UmZrRUlJdGtGTklQSXRjNUpqUDJ6TjRYZDJnU1dmc3FWVS1PNWJlbW1TVXV2a19oWWJkSnh3a2FN?oc=5",
       "fuente": "Alcaldía de Santiago de Cali",
-      "fecha": "2026-11-19T13:37:00.000Z",
+      "fecha": "2026-11-19T08:00:00.000Z",
       "tema": "turismo Eje Cafetero",
       "idioma": "es"
     },
@@ -137,18 +161,10 @@
       "idioma": "es"
     },
     {
-      "titulo": "Campesinos del Quindío llevarán sus saberes y propuestas al mundo digital",
-      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3o2QldqNXNQN2ZFdmlrZ2ZEeUtLYjdGeFRzeW9sMzVwaXJPZ0xpclJqeWhTdmhmTUtldllSRjR1dW52enNuRzFUWEQ1alFQaS1tWWFtS3UzSkdlcGY5R3RLcHBYaUpuN18ta3pqNGxXdXhLa2JjNXRqRThoUG9kcm1TREZaTzFjZkY3UXFaYktjWmo4LVVUTVpiQzRFR1EyS3Z4aGRKMDB6QQ?oc=5",
-      "fuente": "Crónica del Quindio",
-      "fecha": "2026-11-13T17:02:06.000Z",
-      "tema": "Filandia Quindío",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Habitantes de municipios del Eje Cafetero comienzan a recibir aprobación para pagar $700 en el peaje Circasia",
-      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYS1XU3RISmdpa05Ibzh2WDJUM3lVd3FFbV83bTdBUDdHeThHbXJfUkJZaFhkSWlnV0xPN29wb0hBRG05MDJqZmQ2bnBBcUFhNkotX3IyMV8yRWkwd1RCQlFHSjBNLW1NcDdoeGZ4TTZoNHA0SFVYNDR0REpBWDhQX0hKd0V3RTJDN2VGYUNXaWNNVjBzdGRPQjNuaEtMU3BZUFBwS1N6Y2hBQVhHZ1RHald5RzdVcXVFXzRLdmpTWlk?oc=5",
-      "fuente": "La Patria",
-      "fecha": "2026-11-11T08:00:00.000Z",
+      "titulo": "Lunes 9 de noviembre, las noticias más importantes de Armenia y Quindío",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTRzYjVnRWlSM0FEdHRHbWhZUUJWVWduM0xjMjNmcFM2djhuLXcyT2x1d1k3bFpmZmoyaldxblRmN01Nd2ZVaVFZSUt2dkIwYXFkZm5LQWx0NnE5NlpTc1RMdTRvb0szOXd6eVFpalhFN2hrZDdCWTBwdGVVQnVJZHVSNHg1akJ6QmtRUUF0bTIwYXktckdfNXFjY2tUU2JHZHlQbmxoMETSAbwBQVVfeXFMUE0tNTl5UDVJamhmb0VjYVpiRHFubUR0TVNFWkRsOVFodDcwUS12RWVVZGQ1TzJoV3dEWDdTTVgxQUR3aUllY2t5UTRXSlU2T2QweXQ0Y2JSTlZUMUhNdVpVVlJIUFppVWFsY1FjQXo4TFY1NVlpN2ZYLVNzdjBfUTBYcGVXTzBUVjBiVmNxT0dzZk50UmZMYy11ZV9ldUJ4WTFPNk9ueDZHTC15YlBPT2pKOVpMR0d1dG9HTHI?oc=5",
+      "fuente": "Caracol Radio",
+      "fecha": "2026-11-09T08:00:00.000Z",
       "tema": "Filandia Quindío",
       "idioma": "es"
     },
@@ -201,35 +217,19 @@
       "idioma": "es"
     },
     {
+      "titulo": "Colombia más allá del Caribe: un viaje por el Eje Cafetero",
+      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1RkUXA5SlktYjdGSkdDZG91czFsamJoR0o2RUd5Tkg4WnBKVUstVTdJRXpsN1R5UmszaF91UFhWRWNaWHBLQUFiQWI4eklmajNKdmE5V21vZ0lnWlVhejVjZGVJVFpqb0NoWkhHemtwVEtHcjd6MVhYbldiVjBvckwwaC1Db2xqdm1DaEg5VWYySExYN0tCU3FMUkdnVGluc2hrTXlaZDBSSE1O0gGsAUFVX3lxTE1PVGRRcDlKWS1iN0ZKR0Nkb3VzMWxqYmhHSjZFR3lOSDhacEpVSy1VN0lFemw3VHlSazNoX3VQWFZFY1pYcEtBQWJBYjh6SWZqM0p2YTlXbW9nSWdaVWF6NWNkZUlUWmpvQ2haSEd6a3BUS0dyN3oxWFhuV2JWMG9yTDBoLUNvbGp2bUNoSDlVZjJITFg3S0JTcUxSR2dUaW5zaGtNeVpkMFJITU4?oc=5",
+      "fuente": "Viajando.Travel",
+      "fecha": "2026-11-05T08:00:00.000Z",
+      "tema": "turismo Eje Cafetero",
+      "idioma": "es"
+    },
+    {
       "titulo": "Parece sacado de Disney: así es el mirador colombiano inspirado en Encanto",
       "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPelkxcXZNNFF6NlhBS2llVGhCOF92ZGpSTTNwdV9lYzFad0E4ZHlCeG1qVE90emY5NFYwWXJIaVpsTmZQZld4aFhyeE1BWHBNZUVvYmIzN2t5azVJS2VacW5zbzlPaUpZcHJKYVdUdW85SU1lMlJWaVRVTW5LZGdnalE1UVFmS3NaZlE5NzhZeHR5b0NPeHlxZGo1emZ2WWJ5aXhuMDh3aW9GS3ZjSkhmdHNhME9HUXRYOWZ4RFNB?oc=5",
       "fuente": "Revista Semana",
       "fecha": "2026-11-03T08:00:00.000Z",
       "tema": "Filandia Quindío",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Dosquebradas recibió la Media Maratón del Café como protagonista del turismo deportivo",
-      "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPblJ5UUxjM1NRVnNkUTRMbnIySU80TzhSTk8wOHlsN3RBeXNWaS1uNVdjRW03NkhJNFFWOVIwd0FDSDBoRG1XZkZRNS1BU1ZoQ19LRlUwRkdHZ2RXbXEwN0lxRGtYZ2M2NmhLcVhmWk5MaDFqbGZVSVNKSE5iXzdKX2Jfc0VPZUFKTXp0cWRWeFdDN3gyWDEzWE1xY1ZMNXY4ZVdkZUYtTFp1bE8yVGNuNXplUGVRLVdEdUtib056ekxueWdDU1pDQjVpdHEzTDBWNGQwRGpfalFGTEtJWUxSSVBVbzFHQjRiR0J0WTZHY0RXcHRRVTdZaGRHZzR1WmxWOHQ1SFIyWUZLN0JwRF9OdVA2N0J2b3RsRHc?oc=5",
-      "fuente": "Dosquebradas",
-      "fecha": "2026-11-02T08:00:00.000Z",
-      "tema": "turismo Eje Cafetero",
-      "idioma": "es"
-    },
-    {
-      "titulo": "El corredor Murillo-Manizales tendrá pico y placa ambiental: así funcionará la medida",
-      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMXU0U3FWRmxURFhmQm5OV3NRelB4bWEwWkVVVzBUa1VwZ2pzMk5WLUVxaEo5Nk1aSE5YM0JicjhQLTFOckRRdlZEWG5CSTBua0U2V3EzdHk3Rkk4Y3BNTy1iUFhtQndUX0hzVFhKek5IdU5YLUM3V3gwblpzd0RhTjFMSkp0LW9ENllkVjUzZXlWcE1zQlNjZU5lZllqUHh3UVlXMTBuQUh1ODBtbTg2Y2d5NmJEeVRmc1F1ZjhkOUp4c0R6MGhPSNIB4wFBVV95cUxQMXRjY2NOUGtPMTJZc3FUdUd1T3M0UmpfSjRydUZOMHlIeWtCelJKY0JmNnlDc3lQaG5MdzFySkM5VXpzLUtVTFJwa2dqMzJmblZLYk1JUnN6d0pIYndRU19nMVl1THktVVJTemMwcDkwTEpQSFItcEx1SzJjN1BUOTJkV2FXdnl4dmJfX0tsQU5PVGJOWUluYW92MWpnVkNZMUZnZ1dqeGdubU16SEdyMUNqUnV1dzQxY0ZIX3U4NVBucGZkNk1qekF5ZEptbzdMd3hGSVZ6MU1nSHJYWmpGNmdzOA?oc=5",
-      "fuente": "Infobae",
-      "fecha": "2026-10-30T07:00:00.000Z",
-      "tema": "Parque Nacional Natural Los Nevados",
-      "idioma": "es"
-    },
-    {
-      "titulo": "Vía Manizales - Murillo: pico y placa para este fin de semana con puente, 31 de octubre, 1 y 2 de noviembre",
-      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLXUzdndWWWFJMzB6OWxfOU00RF9obmxNVmkzdDdRUDdNblRHXzA2VlRuWXFoWTVJa1VGQkVvQUlMQ1c0SkVxclpRVHBEeU90UlFvYkZlSDg1TGFaRVYyS3NSV1lLRnJ6T3dsVU42Q0gtcWNKRWRDVk52RHBOenBaeHNHT1R0cENJQkVraDJrYTFEOG5EUUVKLV9MWVlzRnhPdUduVzNGVlNjRVJfdk9lZGhxc28wSXY0QjM4SQ?oc=5",
-      "fuente": "La Patria",
-      "fecha": "2026-10-30T07:00:00.000Z",
-      "tema": "Parque Nacional Natural Los Nevados",
       "idioma": "es"
     }
   ]
